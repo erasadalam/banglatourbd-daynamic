@@ -1,0 +1,16 @@
+-- //Database Name - banglatourbd
+
+DROP TABLE IF EXISTS `slider`;
+
+CREATE TABLE `slider` (
+  `id` int(11) NOT NULL PRIMARY KEY AUTO_INCREMENT,
+  `title` varchar(50) NOT NULL UNIQUE KEY,
+  `description` LONGTEXT NOT NULL,
+  `image_path` varchar(250) NOT NULL,
+  `status` int(1) NOT NULL DEFAULT 1  
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+
+INSERT INTO `slider` VALUES (NULL, 'Royal Bangle Tiger', 'Text About Royal Bangle Tiger', 'uploads/slider/image-43-6715.jpg', '1');
+INSERT INTO `slider` VALUES (NULL, 'Tea Garden Sylhet', 'Text about Tea Garden Sylhet', 'uploads/slider/image-44-9167.jpg', '1');
+INSERT INTO `slider` VALUES (NULL, 'The Sundarbans', 'Text about The Sundarbans', 'uploads/slider/image-45-1833.jpg', '0');
+INSERT INTO `slider` VALUES (NULL, 'Sea Beach', 'Text about Sea Beach', 'uploads/slider/image-46-4945.jpg', '1');

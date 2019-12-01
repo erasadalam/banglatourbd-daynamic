@@ -1,0 +1,2762 @@
+2019-11-30 13:06:29 [::1][-][ronr235r0scauo5r4er8m7umtv][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "slider". in C:\xampp\htdocs\banglatourbd\vendor\yiisoft\yii2\base\Module.php:537
+Stack trace:
+#0 C:\xampp\htdocs\banglatourbd\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('slider', Array)
+#1 C:\xampp\htdocs\banglatourbd\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 C:\xampp\htdocs\banglatourbd\frontend\web\index.php(17): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in C:\xampp\htdocs\banglatourbd\vendor\yiisoft\yii2\web\Application.php:115
+Stack trace:
+#0 C:\xampp\htdocs\banglatourbd\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 C:\xampp\htdocs\banglatourbd\frontend\web\index.php(17): yii\base\Application->run()
+#2 {main}
+2019-11-30 13:06:29 [::1][-][ronr235r0scauo5r4er8m7umtv][info][application] $_GET = [
+    'r' => 'slider'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'advanced-backend' => 'gh66l5seluh4gd8lum1ou09aao'
+    '_csrf-backend' => '6e4e819ad348e6b4818977c851127a4dca1127ef32b8d3d0f1e434816e8b3909a:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"QEUYvyxTzsmITc2tBbHHLALUULsK3Qzh\";}'
+    'advanced-frontend' => 'ronr235r0scauo5r4er8m7umtv'
+    '_csrf-frontend' => 'e08b7c24b5ad8000b2c45b7a9f7c46c2978f75bf65d70f8769725b36b048db56a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"7Isx4-g90Nq6g-fKPQmxF9EJHQYwy5J-\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__captcha/site/captcha' => 'qqhdse'
+    '__captcha/site/captchacount' => 1
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:70.0) Gecko/20100101 Firefox/70.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_DNT' => '1'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_COOKIE' => 'advanced-backend=gh66l5seluh4gd8lum1ou09aao; _csrf-backend=6e4e819ad348e6b4818977c851127a4dca1127ef32b8d3d0f1e434816e8b3909a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22QEUYvyxTzsmITc2tBbHHLALUULsK3Qzh%22%3B%7D; advanced-frontend=ronr235r0scauo5r4er8m7umtv; _csrf-frontend=e08b7c24b5ad8000b2c45b7a9f7c46c2978f75bf65d70f8769725b36b048db56a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%227Isx4-g90Nq6g-fKPQmxF9EJHQYwy5J-%22%3B%7D'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;C:\\Program Files\\Git\\cmd;C:\\xampp\\php;C:\\composer;C:\\Users\\SHOHAN\\AppData\\Local\\Microsoft\\WindowsApps;;C:\\Program Files\\JetBrains\\PhpStorm 2019.2.5\\bin;;C:\\Users\\SHOHAN\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.41 (Win64) OpenSSL/1.1.1c PHP/7.3.11 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.41 (Win64) OpenSSL/1.1.1c PHP/7.3.11'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/xampp/htdocs/banglatourbd/frontend/web/index.php'
+    'REMOTE_PORT' => '2911'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=slider'
+    'REQUEST_URI' => '/banglatourbd/frontend/web/index.php?r=slider'
+    'SCRIPT_NAME' => '/banglatourbd/frontend/web/index.php'
+    'PHP_SELF' => '/banglatourbd/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1575115589.371
+    'REQUEST_TIME' => 1575115589
+]
+2019-11-30 13:34:53 [::1][-][ronr235r0scauo5r4er8m7umtv][error][Error] Error: Class 'Url' not found in C:\xampp\htdocs\banglatourbd\frontend\views\site\index.php:19
+Stack trace:
+#0 C:\xampp\htdocs\banglatourbd\vendor\yiisoft\yii2\base\View.php(348): require()
+#1 C:\xampp\htdocs\banglatourbd\vendor\yiisoft\yii2\base\View.php(257): yii\base\View->renderPhpFile('C:\\xampp\\htdocs...', Array)
+#2 C:\xampp\htdocs\banglatourbd\vendor\yiisoft\yii2\base\View.php(156): yii\base\View->renderFile('C:\\xampp\\htdocs...', Array, Object(frontend\controllers\SiteController))
+#3 C:\xampp\htdocs\banglatourbd\vendor\yiisoft\yii2\base\Controller.php(386): yii\base\View->render('index', Array, Object(frontend\controllers\SiteController))
+#4 C:\xampp\htdocs\banglatourbd\frontend\controllers\SiteController.php(77): yii\base\Controller->render('index')
+#5 [internal function]: frontend\controllers\SiteController->actionIndex()
+#6 C:\xampp\htdocs\banglatourbd\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#7 C:\xampp\htdocs\banglatourbd\vendor\yiisoft\yii2\base\Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#8 C:\xampp\htdocs\banglatourbd\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction('index', Array)
+#9 C:\xampp\htdocs\banglatourbd\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('site/index', Array)
+#10 C:\xampp\htdocs\banglatourbd\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#11 C:\xampp\htdocs\banglatourbd\frontend\web\index.php(17): yii\base\Application->run()
+#12 {main}
+2019-11-30 13:34:53 [::1][-][ronr235r0scauo5r4er8m7umtv][info][application] $_GET = [
+    'r' => 'site/index'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'advanced-backend' => 'gh66l5seluh4gd8lum1ou09aao'
+    '_csrf-backend' => '6e4e819ad348e6b4818977c851127a4dca1127ef32b8d3d0f1e434816e8b3909a:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"QEUYvyxTzsmITc2tBbHHLALUULsK3Qzh\";}'
+    'advanced-frontend' => 'ronr235r0scauo5r4er8m7umtv'
+    '_csrf-frontend' => 'e08b7c24b5ad8000b2c45b7a9f7c46c2978f75bf65d70f8769725b36b048db56a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"7Isx4-g90Nq6g-fKPQmxF9EJHQYwy5J-\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__captcha/site/captcha' => 'qqhdse'
+    '__captcha/site/captchacount' => 1
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:70.0) Gecko/20100101 Firefox/70.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://localhost/banglatourbd/frontend/web/index.php?r=site%2Flogin'
+    'HTTP_DNT' => '1'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_COOKIE' => 'advanced-backend=gh66l5seluh4gd8lum1ou09aao; _csrf-backend=6e4e819ad348e6b4818977c851127a4dca1127ef32b8d3d0f1e434816e8b3909a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22QEUYvyxTzsmITc2tBbHHLALUULsK3Qzh%22%3B%7D; advanced-frontend=ronr235r0scauo5r4er8m7umtv; _csrf-frontend=e08b7c24b5ad8000b2c45b7a9f7c46c2978f75bf65d70f8769725b36b048db56a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%227Isx4-g90Nq6g-fKPQmxF9EJHQYwy5J-%22%3B%7D'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_PRAGMA' => 'no-cache'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;C:\\Program Files\\Git\\cmd;C:\\xampp\\php;C:\\composer;C:\\Users\\SHOHAN\\AppData\\Local\\Microsoft\\WindowsApps;;C:\\Program Files\\JetBrains\\PhpStorm 2019.2.5\\bin;;C:\\Users\\SHOHAN\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.41 (Win64) OpenSSL/1.1.1c PHP/7.3.11 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.41 (Win64) OpenSSL/1.1.1c PHP/7.3.11'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/xampp/htdocs/banglatourbd/frontend/web/index.php'
+    'REMOTE_PORT' => '3378'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=site%2Findex'
+    'REQUEST_URI' => '/banglatourbd/frontend/web/index.php?r=site%2Findex'
+    'SCRIPT_NAME' => '/banglatourbd/frontend/web/index.php'
+    'PHP_SELF' => '/banglatourbd/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1575117293.187
+    'REQUEST_TIME' => 1575117293
+]
+2019-11-30 14:24:47 [::1][-][ronr235r0scauo5r4er8m7umtv][error][yii\base\ErrorException:2] yii\base\ErrorException: The use statement with non-compound name 'yii' has no effect in C:\xampp\htdocs\banglatourbd\frontend\views\site\index.php:3
+Stack trace:
+#0 C:\xampp\htdocs\banglatourbd\vendor\yiisoft\yii2\base\View.php(348): yii\base\ErrorHandler->handleError(2, 'The use stateme...', 'C:\\xampp\\htdocs...', 3, Array)
+#1 C:\xampp\htdocs\banglatourbd\vendor\yiisoft\yii2\base\View.php(348): require()
+#2 C:\xampp\htdocs\banglatourbd\vendor\yiisoft\yii2\base\View.php(257): yii\base\View->renderPhpFile('C:\\xampp\\htdocs...', Array)
+#3 C:\xampp\htdocs\banglatourbd\vendor\yiisoft\yii2\base\View.php(156): yii\base\View->renderFile('C:\\xampp\\htdocs...', Array, Object(frontend\controllers\SiteController))
+#4 C:\xampp\htdocs\banglatourbd\vendor\yiisoft\yii2\base\Controller.php(386): yii\base\View->render('index', Array, Object(frontend\controllers\SiteController))
+#5 C:\xampp\htdocs\banglatourbd\frontend\controllers\SiteController.php(77): yii\base\Controller->render('index')
+#6 [internal function]: frontend\controllers\SiteController->actionIndex()
+#7 C:\xampp\htdocs\banglatourbd\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#8 C:\xampp\htdocs\banglatourbd\vendor\yiisoft\yii2\base\Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#9 C:\xampp\htdocs\banglatourbd\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction('index', Array)
+#10 C:\xampp\htdocs\banglatourbd\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('site/index', Array)
+#11 C:\xampp\htdocs\banglatourbd\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#12 C:\xampp\htdocs\banglatourbd\frontend\web\index.php(17): yii\base\Application->run()
+#13 {main}
+2019-11-30 14:24:47 [::1][-][ronr235r0scauo5r4er8m7umtv][info][application] $_GET = [
+    'r' => 'site/index'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'advanced-backend' => 'gh66l5seluh4gd8lum1ou09aao'
+    '_csrf-backend' => '6e4e819ad348e6b4818977c851127a4dca1127ef32b8d3d0f1e434816e8b3909a:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"QEUYvyxTzsmITc2tBbHHLALUULsK3Qzh\";}'
+    'advanced-frontend' => 'ronr235r0scauo5r4er8m7umtv'
+    '_csrf-frontend' => 'e08b7c24b5ad8000b2c45b7a9f7c46c2978f75bf65d70f8769725b36b048db56a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"7Isx4-g90Nq6g-fKPQmxF9EJHQYwy5J-\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__captcha/site/captcha' => 'qqhdse'
+    '__captcha/site/captchacount' => 1
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:70.0) Gecko/20100101 Firefox/70.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://localhost/banglatourbd/frontend/web/index.php?r=site%2Flogin'
+    'HTTP_DNT' => '1'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_COOKIE' => 'advanced-backend=gh66l5seluh4gd8lum1ou09aao; _csrf-backend=6e4e819ad348e6b4818977c851127a4dca1127ef32b8d3d0f1e434816e8b3909a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22QEUYvyxTzsmITc2tBbHHLALUULsK3Qzh%22%3B%7D; advanced-frontend=ronr235r0scauo5r4er8m7umtv; _csrf-frontend=e08b7c24b5ad8000b2c45b7a9f7c46c2978f75bf65d70f8769725b36b048db56a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%227Isx4-g90Nq6g-fKPQmxF9EJHQYwy5J-%22%3B%7D'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_PRAGMA' => 'no-cache'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;C:\\Program Files\\Git\\cmd;C:\\xampp\\php;C:\\composer;C:\\Users\\SHOHAN\\AppData\\Local\\Microsoft\\WindowsApps;;C:\\Program Files\\JetBrains\\PhpStorm 2019.2.5\\bin;;C:\\Users\\SHOHAN\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.41 (Win64) OpenSSL/1.1.1c PHP/7.3.11 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.41 (Win64) OpenSSL/1.1.1c PHP/7.3.11'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/xampp/htdocs/banglatourbd/frontend/web/index.php'
+    'REMOTE_PORT' => '4014'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=site%2Findex'
+    'REQUEST_URI' => '/banglatourbd/frontend/web/index.php?r=site%2Findex'
+    'SCRIPT_NAME' => '/banglatourbd/frontend/web/index.php'
+    'PHP_SELF' => '/banglatourbd/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1575120287.521
+    'REQUEST_TIME' => 1575120287
+]
+2019-11-30 14:26:44 [::1][-][ronr235r0scauo5r4er8m7umtv][error][yii\base\ErrorException:2] yii\base\ErrorException: The use statement with non-compound name 'Yii' has no effect in C:\xampp\htdocs\banglatourbd\frontend\views\site\index.php:3
+Stack trace:
+#0 C:\xampp\htdocs\banglatourbd\vendor\yiisoft\yii2\base\View.php(348): yii\base\ErrorHandler->handleError(2, 'The use stateme...', 'C:\\xampp\\htdocs...', 3, Array)
+#1 C:\xampp\htdocs\banglatourbd\vendor\yiisoft\yii2\base\View.php(348): require()
+#2 C:\xampp\htdocs\banglatourbd\vendor\yiisoft\yii2\base\View.php(257): yii\base\View->renderPhpFile('C:\\xampp\\htdocs...', Array)
+#3 C:\xampp\htdocs\banglatourbd\vendor\yiisoft\yii2\base\View.php(156): yii\base\View->renderFile('C:\\xampp\\htdocs...', Array, Object(frontend\controllers\SiteController))
+#4 C:\xampp\htdocs\banglatourbd\vendor\yiisoft\yii2\base\Controller.php(386): yii\base\View->render('index', Array, Object(frontend\controllers\SiteController))
+#5 C:\xampp\htdocs\banglatourbd\frontend\controllers\SiteController.php(77): yii\base\Controller->render('index')
+#6 [internal function]: frontend\controllers\SiteController->actionIndex()
+#7 C:\xampp\htdocs\banglatourbd\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#8 C:\xampp\htdocs\banglatourbd\vendor\yiisoft\yii2\base\Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#9 C:\xampp\htdocs\banglatourbd\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction('index', Array)
+#10 C:\xampp\htdocs\banglatourbd\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('site/index', Array)
+#11 C:\xampp\htdocs\banglatourbd\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#12 C:\xampp\htdocs\banglatourbd\frontend\web\index.php(17): yii\base\Application->run()
+#13 {main}
+2019-11-30 14:26:44 [::1][-][ronr235r0scauo5r4er8m7umtv][info][application] $_GET = [
+    'r' => 'site/index'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'advanced-backend' => 'gh66l5seluh4gd8lum1ou09aao'
+    '_csrf-backend' => '6e4e819ad348e6b4818977c851127a4dca1127ef32b8d3d0f1e434816e8b3909a:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"QEUYvyxTzsmITc2tBbHHLALUULsK3Qzh\";}'
+    'advanced-frontend' => 'ronr235r0scauo5r4er8m7umtv'
+    '_csrf-frontend' => 'e08b7c24b5ad8000b2c45b7a9f7c46c2978f75bf65d70f8769725b36b048db56a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"7Isx4-g90Nq6g-fKPQmxF9EJHQYwy5J-\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__captcha/site/captcha' => 'qqhdse'
+    '__captcha/site/captchacount' => 1
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:70.0) Gecko/20100101 Firefox/70.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://localhost/banglatourbd/frontend/web/index.php?r=site%2Flogin'
+    'HTTP_DNT' => '1'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_COOKIE' => 'advanced-backend=gh66l5seluh4gd8lum1ou09aao; _csrf-backend=6e4e819ad348e6b4818977c851127a4dca1127ef32b8d3d0f1e434816e8b3909a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22QEUYvyxTzsmITc2tBbHHLALUULsK3Qzh%22%3B%7D; advanced-frontend=ronr235r0scauo5r4er8m7umtv; _csrf-frontend=e08b7c24b5ad8000b2c45b7a9f7c46c2978f75bf65d70f8769725b36b048db56a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%227Isx4-g90Nq6g-fKPQmxF9EJHQYwy5J-%22%3B%7D'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_PRAGMA' => 'no-cache'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;C:\\Program Files\\Git\\cmd;C:\\xampp\\php;C:\\composer;C:\\Users\\SHOHAN\\AppData\\Local\\Microsoft\\WindowsApps;;C:\\Program Files\\JetBrains\\PhpStorm 2019.2.5\\bin;;C:\\Users\\SHOHAN\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.41 (Win64) OpenSSL/1.1.1c PHP/7.3.11 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.41 (Win64) OpenSSL/1.1.1c PHP/7.3.11'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/xampp/htdocs/banglatourbd/frontend/web/index.php'
+    'REMOTE_PORT' => '4039'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=site%2Findex'
+    'REQUEST_URI' => '/banglatourbd/frontend/web/index.php?r=site%2Findex'
+    'SCRIPT_NAME' => '/banglatourbd/frontend/web/index.php'
+    'PHP_SELF' => '/banglatourbd/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1575120404.053
+    'REQUEST_TIME' => 1575120404
+]
+2019-11-30 14:32:13 [::1][-][ronr235r0scauo5r4er8m7umtv][error][yii\base\InvalidArgumentException] yii\base\InvalidArgumentException: Invalid path alias: @basePath/backend/web/uploads/slider/image-3-8378.jpg in C:\xampp\htdocs\banglatourbd\vendor\yiisoft\yii2\BaseYii.php:154
+Stack trace:
+#0 C:\xampp\htdocs\banglatourbd\vendor\yiisoft\yii2\helpers\BaseUrl.php(217): yii\BaseYii::getAlias('@basePath/backe...')
+#1 C:\xampp\htdocs\banglatourbd\frontend\views\site\index.php(15): yii\helpers\BaseUrl::to('@basePath/backe...')
+#2 C:\xampp\htdocs\banglatourbd\vendor\yiisoft\yii2\base\View.php(348): require('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\banglatourbd\vendor\yiisoft\yii2\base\View.php(257): yii\base\View->renderPhpFile('C:\\xampp\\htdocs...', Array)
+#4 C:\xampp\htdocs\banglatourbd\vendor\yiisoft\yii2\base\View.php(156): yii\base\View->renderFile('C:\\xampp\\htdocs...', Array, Object(frontend\controllers\SiteController))
+#5 C:\xampp\htdocs\banglatourbd\vendor\yiisoft\yii2\base\Controller.php(386): yii\base\View->render('index', Array, Object(frontend\controllers\SiteController))
+#6 C:\xampp\htdocs\banglatourbd\frontend\controllers\SiteController.php(77): yii\base\Controller->render('index')
+#7 [internal function]: frontend\controllers\SiteController->actionIndex()
+#8 C:\xampp\htdocs\banglatourbd\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#9 C:\xampp\htdocs\banglatourbd\vendor\yiisoft\yii2\base\Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#10 C:\xampp\htdocs\banglatourbd\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction('index', Array)
+#11 C:\xampp\htdocs\banglatourbd\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('site/index', Array)
+#12 C:\xampp\htdocs\banglatourbd\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#13 C:\xampp\htdocs\banglatourbd\frontend\web\index.php(17): yii\base\Application->run()
+#14 {main}
+2019-11-30 14:32:13 [::1][-][ronr235r0scauo5r4er8m7umtv][info][application] $_GET = [
+    'r' => 'site/index'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'advanced-backend' => 'gh66l5seluh4gd8lum1ou09aao'
+    '_csrf-backend' => '6e4e819ad348e6b4818977c851127a4dca1127ef32b8d3d0f1e434816e8b3909a:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"QEUYvyxTzsmITc2tBbHHLALUULsK3Qzh\";}'
+    'advanced-frontend' => 'ronr235r0scauo5r4er8m7umtv'
+    '_csrf-frontend' => 'e08b7c24b5ad8000b2c45b7a9f7c46c2978f75bf65d70f8769725b36b048db56a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"7Isx4-g90Nq6g-fKPQmxF9EJHQYwy5J-\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__captcha/site/captcha' => 'qqhdse'
+    '__captcha/site/captchacount' => 1
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:70.0) Gecko/20100101 Firefox/70.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://localhost/banglatourbd/frontend/web/index.php?r=site%2Flogin'
+    'HTTP_DNT' => '1'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_COOKIE' => 'advanced-backend=gh66l5seluh4gd8lum1ou09aao; _csrf-backend=6e4e819ad348e6b4818977c851127a4dca1127ef32b8d3d0f1e434816e8b3909a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22QEUYvyxTzsmITc2tBbHHLALUULsK3Qzh%22%3B%7D; advanced-frontend=ronr235r0scauo5r4er8m7umtv; _csrf-frontend=e08b7c24b5ad8000b2c45b7a9f7c46c2978f75bf65d70f8769725b36b048db56a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%227Isx4-g90Nq6g-fKPQmxF9EJHQYwy5J-%22%3B%7D'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_PRAGMA' => 'no-cache'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;C:\\Program Files\\Git\\cmd;C:\\xampp\\php;C:\\composer;C:\\Users\\SHOHAN\\AppData\\Local\\Microsoft\\WindowsApps;;C:\\Program Files\\JetBrains\\PhpStorm 2019.2.5\\bin;;C:\\Users\\SHOHAN\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.41 (Win64) OpenSSL/1.1.1c PHP/7.3.11 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.41 (Win64) OpenSSL/1.1.1c PHP/7.3.11'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/xampp/htdocs/banglatourbd/frontend/web/index.php'
+    'REMOTE_PORT' => '4151'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=site%2Findex'
+    'REQUEST_URI' => '/banglatourbd/frontend/web/index.php?r=site%2Findex'
+    'SCRIPT_NAME' => '/banglatourbd/frontend/web/index.php'
+    'PHP_SELF' => '/banglatourbd/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1575120733.105
+    'REQUEST_TIME' => 1575120733
+]
+2019-11-30 14:32:48 [::1][-][ronr235r0scauo5r4er8m7umtv][error][yii\base\InvalidArgumentException] yii\base\InvalidArgumentException: Invalid path alias: @basePath/web/uploads/slider/image-3-8378.jpg in C:\xampp\htdocs\banglatourbd\vendor\yiisoft\yii2\BaseYii.php:154
+Stack trace:
+#0 C:\xampp\htdocs\banglatourbd\vendor\yiisoft\yii2\helpers\BaseUrl.php(217): yii\BaseYii::getAlias('@basePath/web/u...')
+#1 C:\xampp\htdocs\banglatourbd\frontend\views\site\index.php(15): yii\helpers\BaseUrl::to('@basePath/web/u...')
+#2 C:\xampp\htdocs\banglatourbd\vendor\yiisoft\yii2\base\View.php(348): require('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\banglatourbd\vendor\yiisoft\yii2\base\View.php(257): yii\base\View->renderPhpFile('C:\\xampp\\htdocs...', Array)
+#4 C:\xampp\htdocs\banglatourbd\vendor\yiisoft\yii2\base\View.php(156): yii\base\View->renderFile('C:\\xampp\\htdocs...', Array, Object(frontend\controllers\SiteController))
+#5 C:\xampp\htdocs\banglatourbd\vendor\yiisoft\yii2\base\Controller.php(386): yii\base\View->render('index', Array, Object(frontend\controllers\SiteController))
+#6 C:\xampp\htdocs\banglatourbd\frontend\controllers\SiteController.php(77): yii\base\Controller->render('index')
+#7 [internal function]: frontend\controllers\SiteController->actionIndex()
+#8 C:\xampp\htdocs\banglatourbd\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#9 C:\xampp\htdocs\banglatourbd\vendor\yiisoft\yii2\base\Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#10 C:\xampp\htdocs\banglatourbd\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction('index', Array)
+#11 C:\xampp\htdocs\banglatourbd\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('site/index', Array)
+#12 C:\xampp\htdocs\banglatourbd\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#13 C:\xampp\htdocs\banglatourbd\frontend\web\index.php(17): yii\base\Application->run()
+#14 {main}
+2019-11-30 14:32:48 [::1][-][ronr235r0scauo5r4er8m7umtv][info][application] $_GET = [
+    'r' => 'site/index'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'advanced-backend' => 'gh66l5seluh4gd8lum1ou09aao'
+    '_csrf-backend' => '6e4e819ad348e6b4818977c851127a4dca1127ef32b8d3d0f1e434816e8b3909a:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"QEUYvyxTzsmITc2tBbHHLALUULsK3Qzh\";}'
+    'advanced-frontend' => 'ronr235r0scauo5r4er8m7umtv'
+    '_csrf-frontend' => 'e08b7c24b5ad8000b2c45b7a9f7c46c2978f75bf65d70f8769725b36b048db56a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"7Isx4-g90Nq6g-fKPQmxF9EJHQYwy5J-\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__captcha/site/captcha' => 'qqhdse'
+    '__captcha/site/captchacount' => 1
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:70.0) Gecko/20100101 Firefox/70.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://localhost/banglatourbd/frontend/web/index.php?r=site%2Flogin'
+    'HTTP_DNT' => '1'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_COOKIE' => 'advanced-backend=gh66l5seluh4gd8lum1ou09aao; _csrf-backend=6e4e819ad348e6b4818977c851127a4dca1127ef32b8d3d0f1e434816e8b3909a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22QEUYvyxTzsmITc2tBbHHLALUULsK3Qzh%22%3B%7D; advanced-frontend=ronr235r0scauo5r4er8m7umtv; _csrf-frontend=e08b7c24b5ad8000b2c45b7a9f7c46c2978f75bf65d70f8769725b36b048db56a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%227Isx4-g90Nq6g-fKPQmxF9EJHQYwy5J-%22%3B%7D'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_PRAGMA' => 'no-cache'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;C:\\Program Files\\Git\\cmd;C:\\xampp\\php;C:\\composer;C:\\Users\\SHOHAN\\AppData\\Local\\Microsoft\\WindowsApps;;C:\\Program Files\\JetBrains\\PhpStorm 2019.2.5\\bin;;C:\\Users\\SHOHAN\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.41 (Win64) OpenSSL/1.1.1c PHP/7.3.11 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.41 (Win64) OpenSSL/1.1.1c PHP/7.3.11'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/xampp/htdocs/banglatourbd/frontend/web/index.php'
+    'REMOTE_PORT' => '4166'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=site%2Findex'
+    'REQUEST_URI' => '/banglatourbd/frontend/web/index.php?r=site%2Findex'
+    'SCRIPT_NAME' => '/banglatourbd/frontend/web/index.php'
+    'PHP_SELF' => '/banglatourbd/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1575120768.047
+    'REQUEST_TIME' => 1575120768
+]
+2019-11-30 14:35:39 [::1][-][ronr235r0scauo5r4er8m7umtv][error][yii\base\InvalidArgumentException] yii\base\InvalidArgumentException: Invalid path alias: @root/backend/web/uploads/slider/image-3-8378.jpg in C:\xampp\htdocs\banglatourbd\vendor\yiisoft\yii2\BaseYii.php:154
+Stack trace:
+#0 C:\xampp\htdocs\banglatourbd\vendor\yiisoft\yii2\helpers\BaseUrl.php(217): yii\BaseYii::getAlias('@root/backend/w...')
+#1 C:\xampp\htdocs\banglatourbd\frontend\views\site\index.php(15): yii\helpers\BaseUrl::to('@root/backend/w...')
+#2 C:\xampp\htdocs\banglatourbd\vendor\yiisoft\yii2\base\View.php(348): require('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\banglatourbd\vendor\yiisoft\yii2\base\View.php(257): yii\base\View->renderPhpFile('C:\\xampp\\htdocs...', Array)
+#4 C:\xampp\htdocs\banglatourbd\vendor\yiisoft\yii2\base\View.php(156): yii\base\View->renderFile('C:\\xampp\\htdocs...', Array, Object(frontend\controllers\SiteController))
+#5 C:\xampp\htdocs\banglatourbd\vendor\yiisoft\yii2\base\Controller.php(386): yii\base\View->render('index', Array, Object(frontend\controllers\SiteController))
+#6 C:\xampp\htdocs\banglatourbd\frontend\controllers\SiteController.php(77): yii\base\Controller->render('index')
+#7 [internal function]: frontend\controllers\SiteController->actionIndex()
+#8 C:\xampp\htdocs\banglatourbd\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#9 C:\xampp\htdocs\banglatourbd\vendor\yiisoft\yii2\base\Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#10 C:\xampp\htdocs\banglatourbd\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction('index', Array)
+#11 C:\xampp\htdocs\banglatourbd\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('site/index', Array)
+#12 C:\xampp\htdocs\banglatourbd\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#13 C:\xampp\htdocs\banglatourbd\frontend\web\index.php(17): yii\base\Application->run()
+#14 {main}
+2019-11-30 14:35:39 [::1][-][ronr235r0scauo5r4er8m7umtv][info][application] $_GET = [
+    'r' => 'site/index'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'advanced-backend' => 'gh66l5seluh4gd8lum1ou09aao'
+    '_csrf-backend' => '6e4e819ad348e6b4818977c851127a4dca1127ef32b8d3d0f1e434816e8b3909a:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"QEUYvyxTzsmITc2tBbHHLALUULsK3Qzh\";}'
+    'advanced-frontend' => 'ronr235r0scauo5r4er8m7umtv'
+    '_csrf-frontend' => 'e08b7c24b5ad8000b2c45b7a9f7c46c2978f75bf65d70f8769725b36b048db56a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"7Isx4-g90Nq6g-fKPQmxF9EJHQYwy5J-\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__captcha/site/captcha' => 'qqhdse'
+    '__captcha/site/captchacount' => 1
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:70.0) Gecko/20100101 Firefox/70.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://localhost/banglatourbd/frontend/web/index.php?r=site%2Flogin'
+    'HTTP_DNT' => '1'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_COOKIE' => 'advanced-backend=gh66l5seluh4gd8lum1ou09aao; _csrf-backend=6e4e819ad348e6b4818977c851127a4dca1127ef32b8d3d0f1e434816e8b3909a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22QEUYvyxTzsmITc2tBbHHLALUULsK3Qzh%22%3B%7D; advanced-frontend=ronr235r0scauo5r4er8m7umtv; _csrf-frontend=e08b7c24b5ad8000b2c45b7a9f7c46c2978f75bf65d70f8769725b36b048db56a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%227Isx4-g90Nq6g-fKPQmxF9EJHQYwy5J-%22%3B%7D'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_PRAGMA' => 'no-cache'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;C:\\Program Files\\Git\\cmd;C:\\xampp\\php;C:\\composer;C:\\Users\\SHOHAN\\AppData\\Local\\Microsoft\\WindowsApps;;C:\\Program Files\\JetBrains\\PhpStorm 2019.2.5\\bin;;C:\\Users\\SHOHAN\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.41 (Win64) OpenSSL/1.1.1c PHP/7.3.11 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.41 (Win64) OpenSSL/1.1.1c PHP/7.3.11'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/xampp/htdocs/banglatourbd/frontend/web/index.php'
+    'REMOTE_PORT' => '4250'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=site%2Findex'
+    'REQUEST_URI' => '/banglatourbd/frontend/web/index.php?r=site%2Findex'
+    'SCRIPT_NAME' => '/banglatourbd/frontend/web/index.php'
+    'PHP_SELF' => '/banglatourbd/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1575120939.7
+    'REQUEST_TIME' => 1575120939
+]
+2019-11-30 14:37:15 [::1][-][ronr235r0scauo5r4er8m7umtv][error][yii\base\InvalidArgumentException] yii\base\InvalidArgumentException: Invalid path alias: @root/backend/web/uploads/slider/image-3-8378.jpg in C:\xampp\htdocs\banglatourbd\vendor\yiisoft\yii2\BaseYii.php:154
+Stack trace:
+#0 C:\xampp\htdocs\banglatourbd\vendor\yiisoft\yii2\helpers\BaseUrl.php(217): yii\BaseYii::getAlias('@root/backend/w...')
+#1 C:\xampp\htdocs\banglatourbd\frontend\views\site\index.php(15): yii\helpers\BaseUrl::to('@root/backend/w...')
+#2 C:\xampp\htdocs\banglatourbd\vendor\yiisoft\yii2\base\View.php(348): require('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\banglatourbd\vendor\yiisoft\yii2\base\View.php(257): yii\base\View->renderPhpFile('C:\\xampp\\htdocs...', Array)
+#4 C:\xampp\htdocs\banglatourbd\vendor\yiisoft\yii2\base\View.php(156): yii\base\View->renderFile('C:\\xampp\\htdocs...', Array, Object(frontend\controllers\SiteController))
+#5 C:\xampp\htdocs\banglatourbd\vendor\yiisoft\yii2\base\Controller.php(386): yii\base\View->render('index', Array, Object(frontend\controllers\SiteController))
+#6 C:\xampp\htdocs\banglatourbd\frontend\controllers\SiteController.php(77): yii\base\Controller->render('index')
+#7 [internal function]: frontend\controllers\SiteController->actionIndex()
+#8 C:\xampp\htdocs\banglatourbd\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#9 C:\xampp\htdocs\banglatourbd\vendor\yiisoft\yii2\base\Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#10 C:\xampp\htdocs\banglatourbd\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction('index', Array)
+#11 C:\xampp\htdocs\banglatourbd\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('site/index', Array)
+#12 C:\xampp\htdocs\banglatourbd\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#13 C:\xampp\htdocs\banglatourbd\frontend\web\index.php(17): yii\base\Application->run()
+#14 {main}
+2019-11-30 14:37:15 [::1][-][ronr235r0scauo5r4er8m7umtv][info][application] $_GET = [
+    'r' => 'site/index'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'advanced-backend' => 'gh66l5seluh4gd8lum1ou09aao'
+    '_csrf-backend' => '6e4e819ad348e6b4818977c851127a4dca1127ef32b8d3d0f1e434816e8b3909a:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"QEUYvyxTzsmITc2tBbHHLALUULsK3Qzh\";}'
+    'advanced-frontend' => 'ronr235r0scauo5r4er8m7umtv'
+    '_csrf-frontend' => 'e08b7c24b5ad8000b2c45b7a9f7c46c2978f75bf65d70f8769725b36b048db56a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"7Isx4-g90Nq6g-fKPQmxF9EJHQYwy5J-\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__captcha/site/captcha' => 'qqhdse'
+    '__captcha/site/captchacount' => 1
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:70.0) Gecko/20100101 Firefox/70.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://localhost/banglatourbd/frontend/web/index.php?r=site%2Flogin'
+    'HTTP_DNT' => '1'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_COOKIE' => 'advanced-backend=gh66l5seluh4gd8lum1ou09aao; _csrf-backend=6e4e819ad348e6b4818977c851127a4dca1127ef32b8d3d0f1e434816e8b3909a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22QEUYvyxTzsmITc2tBbHHLALUULsK3Qzh%22%3B%7D; advanced-frontend=ronr235r0scauo5r4er8m7umtv; _csrf-frontend=e08b7c24b5ad8000b2c45b7a9f7c46c2978f75bf65d70f8769725b36b048db56a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%227Isx4-g90Nq6g-fKPQmxF9EJHQYwy5J-%22%3B%7D'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_PRAGMA' => 'no-cache'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;C:\\Program Files\\Git\\cmd;C:\\xampp\\php;C:\\composer;C:\\Users\\SHOHAN\\AppData\\Local\\Microsoft\\WindowsApps;;C:\\Program Files\\JetBrains\\PhpStorm 2019.2.5\\bin;;C:\\Users\\SHOHAN\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.41 (Win64) OpenSSL/1.1.1c PHP/7.3.11 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.41 (Win64) OpenSSL/1.1.1c PHP/7.3.11'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/xampp/htdocs/banglatourbd/frontend/web/index.php'
+    'REMOTE_PORT' => '4268'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=site%2Findex'
+    'REQUEST_URI' => '/banglatourbd/frontend/web/index.php?r=site%2Findex'
+    'SCRIPT_NAME' => '/banglatourbd/frontend/web/index.php'
+    'PHP_SELF' => '/banglatourbd/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1575121035.576
+    'REQUEST_TIME' => 1575121035
+]
+2019-11-30 14:44:43 [::1][-][ronr235r0scauo5r4er8m7umtv][error][yii\base\InvalidArgumentException] yii\base\InvalidArgumentException: Invalid path alias: @baseUrl/backend/uploads/slider/image-3-8378.jpg in C:\xampp\htdocs\banglatourbd\vendor\yiisoft\yii2\BaseYii.php:154
+Stack trace:
+#0 C:\xampp\htdocs\banglatourbd\vendor\yiisoft\yii2\helpers\BaseUrl.php(217): yii\BaseYii::getAlias('@baseUrl/backen...')
+#1 C:\xampp\htdocs\banglatourbd\frontend\views\site\index.php(15): yii\helpers\BaseUrl::to('@baseUrl/backen...')
+#2 C:\xampp\htdocs\banglatourbd\vendor\yiisoft\yii2\base\View.php(348): require('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\banglatourbd\vendor\yiisoft\yii2\base\View.php(257): yii\base\View->renderPhpFile('C:\\xampp\\htdocs...', Array)
+#4 C:\xampp\htdocs\banglatourbd\vendor\yiisoft\yii2\base\View.php(156): yii\base\View->renderFile('C:\\xampp\\htdocs...', Array, Object(frontend\controllers\SiteController))
+#5 C:\xampp\htdocs\banglatourbd\vendor\yiisoft\yii2\base\Controller.php(386): yii\base\View->render('index', Array, Object(frontend\controllers\SiteController))
+#6 C:\xampp\htdocs\banglatourbd\frontend\controllers\SiteController.php(77): yii\base\Controller->render('index')
+#7 [internal function]: frontend\controllers\SiteController->actionIndex()
+#8 C:\xampp\htdocs\banglatourbd\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#9 C:\xampp\htdocs\banglatourbd\vendor\yiisoft\yii2\base\Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#10 C:\xampp\htdocs\banglatourbd\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction('index', Array)
+#11 C:\xampp\htdocs\banglatourbd\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('site/index', Array)
+#12 C:\xampp\htdocs\banglatourbd\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#13 C:\xampp\htdocs\banglatourbd\frontend\web\index.php(17): yii\base\Application->run()
+#14 {main}
+2019-11-30 14:44:43 [::1][-][ronr235r0scauo5r4er8m7umtv][info][application] $_GET = [
+    'r' => 'site/index'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'advanced-backend' => 'gh66l5seluh4gd8lum1ou09aao'
+    '_csrf-backend' => '6e4e819ad348e6b4818977c851127a4dca1127ef32b8d3d0f1e434816e8b3909a:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"QEUYvyxTzsmITc2tBbHHLALUULsK3Qzh\";}'
+    'advanced-frontend' => 'ronr235r0scauo5r4er8m7umtv'
+    '_csrf-frontend' => 'e08b7c24b5ad8000b2c45b7a9f7c46c2978f75bf65d70f8769725b36b048db56a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"7Isx4-g90Nq6g-fKPQmxF9EJHQYwy5J-\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__captcha/site/captcha' => 'qqhdse'
+    '__captcha/site/captchacount' => 1
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:70.0) Gecko/20100101 Firefox/70.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://localhost/banglatourbd/frontend/web/index.php?r=site%2Flogin'
+    'HTTP_DNT' => '1'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_COOKIE' => 'advanced-backend=gh66l5seluh4gd8lum1ou09aao; _csrf-backend=6e4e819ad348e6b4818977c851127a4dca1127ef32b8d3d0f1e434816e8b3909a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22QEUYvyxTzsmITc2tBbHHLALUULsK3Qzh%22%3B%7D; advanced-frontend=ronr235r0scauo5r4er8m7umtv; _csrf-frontend=e08b7c24b5ad8000b2c45b7a9f7c46c2978f75bf65d70f8769725b36b048db56a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%227Isx4-g90Nq6g-fKPQmxF9EJHQYwy5J-%22%3B%7D'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_PRAGMA' => 'no-cache'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;C:\\Program Files\\Git\\cmd;C:\\xampp\\php;C:\\composer;C:\\Users\\SHOHAN\\AppData\\Local\\Microsoft\\WindowsApps;;C:\\Program Files\\JetBrains\\PhpStorm 2019.2.5\\bin;;C:\\Users\\SHOHAN\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.41 (Win64) OpenSSL/1.1.1c PHP/7.3.11 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.41 (Win64) OpenSSL/1.1.1c PHP/7.3.11'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/xampp/htdocs/banglatourbd/frontend/web/index.php'
+    'REMOTE_PORT' => '4447'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=site%2Findex'
+    'REQUEST_URI' => '/banglatourbd/frontend/web/index.php?r=site%2Findex'
+    'SCRIPT_NAME' => '/banglatourbd/frontend/web/index.php'
+    'PHP_SELF' => '/banglatourbd/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1575121483.699
+    'REQUEST_TIME' => 1575121483
+]
+2019-11-30 14:46:55 [::1][-][ronr235r0scauo5r4er8m7umtv][error][yii\base\InvalidArgumentException] yii\base\InvalidArgumentException: Invalid path alias: @baseUrl/uploads/slider/image-3-8378.jpg in C:\xampp\htdocs\banglatourbd\vendor\yiisoft\yii2\BaseYii.php:154
+Stack trace:
+#0 C:\xampp\htdocs\banglatourbd\vendor\yiisoft\yii2\helpers\BaseUrl.php(217): yii\BaseYii::getAlias('@baseUrl/upload...')
+#1 C:\xampp\htdocs\banglatourbd\frontend\views\site\index.php(15): yii\helpers\BaseUrl::to('@baseUrl/upload...')
+#2 C:\xampp\htdocs\banglatourbd\vendor\yiisoft\yii2\base\View.php(348): require('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\banglatourbd\vendor\yiisoft\yii2\base\View.php(257): yii\base\View->renderPhpFile('C:\\xampp\\htdocs...', Array)
+#4 C:\xampp\htdocs\banglatourbd\vendor\yiisoft\yii2\base\View.php(156): yii\base\View->renderFile('C:\\xampp\\htdocs...', Array, Object(frontend\controllers\SiteController))
+#5 C:\xampp\htdocs\banglatourbd\vendor\yiisoft\yii2\base\Controller.php(386): yii\base\View->render('index', Array, Object(frontend\controllers\SiteController))
+#6 C:\xampp\htdocs\banglatourbd\frontend\controllers\SiteController.php(77): yii\base\Controller->render('index')
+#7 [internal function]: frontend\controllers\SiteController->actionIndex()
+#8 C:\xampp\htdocs\banglatourbd\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#9 C:\xampp\htdocs\banglatourbd\vendor\yiisoft\yii2\base\Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#10 C:\xampp\htdocs\banglatourbd\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction('index', Array)
+#11 C:\xampp\htdocs\banglatourbd\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('site/index', Array)
+#12 C:\xampp\htdocs\banglatourbd\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#13 C:\xampp\htdocs\banglatourbd\frontend\web\index.php(17): yii\base\Application->run()
+#14 {main}
+2019-11-30 14:46:55 [::1][-][ronr235r0scauo5r4er8m7umtv][info][application] $_GET = [
+    'r' => 'site/index'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'advanced-backend' => 'gh66l5seluh4gd8lum1ou09aao'
+    '_csrf-backend' => '6e4e819ad348e6b4818977c851127a4dca1127ef32b8d3d0f1e434816e8b3909a:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"QEUYvyxTzsmITc2tBbHHLALUULsK3Qzh\";}'
+    'advanced-frontend' => 'ronr235r0scauo5r4er8m7umtv'
+    '_csrf-frontend' => 'e08b7c24b5ad8000b2c45b7a9f7c46c2978f75bf65d70f8769725b36b048db56a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"7Isx4-g90Nq6g-fKPQmxF9EJHQYwy5J-\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__captcha/site/captcha' => 'qqhdse'
+    '__captcha/site/captchacount' => 1
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:70.0) Gecko/20100101 Firefox/70.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://localhost/banglatourbd/frontend/web/index.php?r=site%2Flogin'
+    'HTTP_DNT' => '1'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_COOKIE' => 'advanced-backend=gh66l5seluh4gd8lum1ou09aao; _csrf-backend=6e4e819ad348e6b4818977c851127a4dca1127ef32b8d3d0f1e434816e8b3909a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22QEUYvyxTzsmITc2tBbHHLALUULsK3Qzh%22%3B%7D; advanced-frontend=ronr235r0scauo5r4er8m7umtv; _csrf-frontend=e08b7c24b5ad8000b2c45b7a9f7c46c2978f75bf65d70f8769725b36b048db56a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%227Isx4-g90Nq6g-fKPQmxF9EJHQYwy5J-%22%3B%7D'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_PRAGMA' => 'no-cache'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;C:\\Program Files\\Git\\cmd;C:\\xampp\\php;C:\\composer;C:\\Users\\SHOHAN\\AppData\\Local\\Microsoft\\WindowsApps;;C:\\Program Files\\JetBrains\\PhpStorm 2019.2.5\\bin;;C:\\Users\\SHOHAN\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.41 (Win64) OpenSSL/1.1.1c PHP/7.3.11 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.41 (Win64) OpenSSL/1.1.1c PHP/7.3.11'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/xampp/htdocs/banglatourbd/frontend/web/index.php'
+    'REMOTE_PORT' => '4481'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=site%2Findex'
+    'REQUEST_URI' => '/banglatourbd/frontend/web/index.php?r=site%2Findex'
+    'SCRIPT_NAME' => '/banglatourbd/frontend/web/index.php'
+    'PHP_SELF' => '/banglatourbd/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1575121615.554
+    'REQUEST_TIME' => 1575121615
+]
+2019-11-30 14:47:54 [::1][-][ronr235r0scauo5r4er8m7umtv][error][yii\base\InvalidArgumentException] yii\base\InvalidArgumentException: Invalid path alias: @root/uploads/slider/image-3-8378.jpg in C:\xampp\htdocs\banglatourbd\vendor\yiisoft\yii2\BaseYii.php:154
+Stack trace:
+#0 C:\xampp\htdocs\banglatourbd\vendor\yiisoft\yii2\helpers\BaseUrl.php(217): yii\BaseYii::getAlias('@root/uploads/s...')
+#1 C:\xampp\htdocs\banglatourbd\frontend\views\site\index.php(15): yii\helpers\BaseUrl::to('@root/uploads/s...')
+#2 C:\xampp\htdocs\banglatourbd\vendor\yiisoft\yii2\base\View.php(348): require('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\banglatourbd\vendor\yiisoft\yii2\base\View.php(257): yii\base\View->renderPhpFile('C:\\xampp\\htdocs...', Array)
+#4 C:\xampp\htdocs\banglatourbd\vendor\yiisoft\yii2\base\View.php(156): yii\base\View->renderFile('C:\\xampp\\htdocs...', Array, Object(frontend\controllers\SiteController))
+#5 C:\xampp\htdocs\banglatourbd\vendor\yiisoft\yii2\base\Controller.php(386): yii\base\View->render('index', Array, Object(frontend\controllers\SiteController))
+#6 C:\xampp\htdocs\banglatourbd\frontend\controllers\SiteController.php(77): yii\base\Controller->render('index')
+#7 [internal function]: frontend\controllers\SiteController->actionIndex()
+#8 C:\xampp\htdocs\banglatourbd\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#9 C:\xampp\htdocs\banglatourbd\vendor\yiisoft\yii2\base\Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#10 C:\xampp\htdocs\banglatourbd\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction('index', Array)
+#11 C:\xampp\htdocs\banglatourbd\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('site/index', Array)
+#12 C:\xampp\htdocs\banglatourbd\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#13 C:\xampp\htdocs\banglatourbd\frontend\web\index.php(17): yii\base\Application->run()
+#14 {main}
+2019-11-30 14:47:54 [::1][-][ronr235r0scauo5r4er8m7umtv][info][application] $_GET = [
+    'r' => 'site/index'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'advanced-backend' => 'gh66l5seluh4gd8lum1ou09aao'
+    '_csrf-backend' => '6e4e819ad348e6b4818977c851127a4dca1127ef32b8d3d0f1e434816e8b3909a:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"QEUYvyxTzsmITc2tBbHHLALUULsK3Qzh\";}'
+    'advanced-frontend' => 'ronr235r0scauo5r4er8m7umtv'
+    '_csrf-frontend' => 'e08b7c24b5ad8000b2c45b7a9f7c46c2978f75bf65d70f8769725b36b048db56a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"7Isx4-g90Nq6g-fKPQmxF9EJHQYwy5J-\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__captcha/site/captcha' => 'qqhdse'
+    '__captcha/site/captchacount' => 1
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:70.0) Gecko/20100101 Firefox/70.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://localhost/banglatourbd/frontend/web/index.php?r=site%2Flogin'
+    'HTTP_DNT' => '1'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_COOKIE' => 'advanced-backend=gh66l5seluh4gd8lum1ou09aao; _csrf-backend=6e4e819ad348e6b4818977c851127a4dca1127ef32b8d3d0f1e434816e8b3909a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22QEUYvyxTzsmITc2tBbHHLALUULsK3Qzh%22%3B%7D; advanced-frontend=ronr235r0scauo5r4er8m7umtv; _csrf-frontend=e08b7c24b5ad8000b2c45b7a9f7c46c2978f75bf65d70f8769725b36b048db56a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%227Isx4-g90Nq6g-fKPQmxF9EJHQYwy5J-%22%3B%7D'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_PRAGMA' => 'no-cache'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;C:\\Program Files\\Git\\cmd;C:\\xampp\\php;C:\\composer;C:\\Users\\SHOHAN\\AppData\\Local\\Microsoft\\WindowsApps;;C:\\Program Files\\JetBrains\\PhpStorm 2019.2.5\\bin;;C:\\Users\\SHOHAN\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.41 (Win64) OpenSSL/1.1.1c PHP/7.3.11 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.41 (Win64) OpenSSL/1.1.1c PHP/7.3.11'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/xampp/htdocs/banglatourbd/frontend/web/index.php'
+    'REMOTE_PORT' => '4506'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=site%2Findex'
+    'REQUEST_URI' => '/banglatourbd/frontend/web/index.php?r=site%2Findex'
+    'SCRIPT_NAME' => '/banglatourbd/frontend/web/index.php'
+    'PHP_SELF' => '/banglatourbd/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1575121674.744
+    'REQUEST_TIME' => 1575121674
+]
+2019-11-30 14:49:34 [::1][-][ronr235r0scauo5r4er8m7umtv][error][yii\base\InvalidArgumentException] yii\base\InvalidArgumentException: Invalid path alias: @banglatourbd/backend/web/uploads/slider/image-3-8378.jpg in C:\xampp\htdocs\banglatourbd\vendor\yiisoft\yii2\BaseYii.php:154
+Stack trace:
+#0 C:\xampp\htdocs\banglatourbd\vendor\yiisoft\yii2\helpers\BaseUrl.php(217): yii\BaseYii::getAlias('@banglatourbd/b...')
+#1 C:\xampp\htdocs\banglatourbd\frontend\views\site\index.php(15): yii\helpers\BaseUrl::to('@banglatourbd/b...')
+#2 C:\xampp\htdocs\banglatourbd\vendor\yiisoft\yii2\base\View.php(348): require('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\banglatourbd\vendor\yiisoft\yii2\base\View.php(257): yii\base\View->renderPhpFile('C:\\xampp\\htdocs...', Array)
+#4 C:\xampp\htdocs\banglatourbd\vendor\yiisoft\yii2\base\View.php(156): yii\base\View->renderFile('C:\\xampp\\htdocs...', Array, Object(frontend\controllers\SiteController))
+#5 C:\xampp\htdocs\banglatourbd\vendor\yiisoft\yii2\base\Controller.php(386): yii\base\View->render('index', Array, Object(frontend\controllers\SiteController))
+#6 C:\xampp\htdocs\banglatourbd\frontend\controllers\SiteController.php(77): yii\base\Controller->render('index')
+#7 [internal function]: frontend\controllers\SiteController->actionIndex()
+#8 C:\xampp\htdocs\banglatourbd\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#9 C:\xampp\htdocs\banglatourbd\vendor\yiisoft\yii2\base\Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#10 C:\xampp\htdocs\banglatourbd\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction('index', Array)
+#11 C:\xampp\htdocs\banglatourbd\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('site/index', Array)
+#12 C:\xampp\htdocs\banglatourbd\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#13 C:\xampp\htdocs\banglatourbd\frontend\web\index.php(17): yii\base\Application->run()
+#14 {main}
+2019-11-30 14:49:34 [::1][-][ronr235r0scauo5r4er8m7umtv][info][application] $_GET = [
+    'r' => 'site/index'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'advanced-backend' => 'gh66l5seluh4gd8lum1ou09aao'
+    '_csrf-backend' => '6e4e819ad348e6b4818977c851127a4dca1127ef32b8d3d0f1e434816e8b3909a:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"QEUYvyxTzsmITc2tBbHHLALUULsK3Qzh\";}'
+    'advanced-frontend' => 'ronr235r0scauo5r4er8m7umtv'
+    '_csrf-frontend' => 'e08b7c24b5ad8000b2c45b7a9f7c46c2978f75bf65d70f8769725b36b048db56a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"7Isx4-g90Nq6g-fKPQmxF9EJHQYwy5J-\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__captcha/site/captcha' => 'qqhdse'
+    '__captcha/site/captchacount' => 1
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:70.0) Gecko/20100101 Firefox/70.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://localhost/banglatourbd/frontend/web/index.php?r=site%2Flogin'
+    'HTTP_DNT' => '1'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_COOKIE' => 'advanced-backend=gh66l5seluh4gd8lum1ou09aao; _csrf-backend=6e4e819ad348e6b4818977c851127a4dca1127ef32b8d3d0f1e434816e8b3909a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22QEUYvyxTzsmITc2tBbHHLALUULsK3Qzh%22%3B%7D; advanced-frontend=ronr235r0scauo5r4er8m7umtv; _csrf-frontend=e08b7c24b5ad8000b2c45b7a9f7c46c2978f75bf65d70f8769725b36b048db56a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%227Isx4-g90Nq6g-fKPQmxF9EJHQYwy5J-%22%3B%7D'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_PRAGMA' => 'no-cache'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;C:\\Program Files\\Git\\cmd;C:\\xampp\\php;C:\\composer;C:\\Users\\SHOHAN\\AppData\\Local\\Microsoft\\WindowsApps;;C:\\Program Files\\JetBrains\\PhpStorm 2019.2.5\\bin;;C:\\Users\\SHOHAN\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.41 (Win64) OpenSSL/1.1.1c PHP/7.3.11 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.41 (Win64) OpenSSL/1.1.1c PHP/7.3.11'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/xampp/htdocs/banglatourbd/frontend/web/index.php'
+    'REMOTE_PORT' => '4548'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=site%2Findex'
+    'REQUEST_URI' => '/banglatourbd/frontend/web/index.php?r=site%2Findex'
+    'SCRIPT_NAME' => '/banglatourbd/frontend/web/index.php'
+    'PHP_SELF' => '/banglatourbd/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1575121774.839
+    'REQUEST_TIME' => 1575121774
+]
+2019-11-30 14:55:47 [::1][-][ronr235r0scauo5r4er8m7umtv][error][yii\base\ErrorException:2] yii\base\ErrorException: The use statement with non-compound name 'Yii' has no effect in C:\xampp\htdocs\banglatourbd\frontend\views\site\index.php:3
+Stack trace:
+#0 C:\xampp\htdocs\banglatourbd\vendor\yiisoft\yii2\base\View.php(348): yii\base\ErrorHandler->handleError(2, 'The use stateme...', 'C:\\xampp\\htdocs...', 3, Array)
+#1 C:\xampp\htdocs\banglatourbd\vendor\yiisoft\yii2\base\View.php(348): require()
+#2 C:\xampp\htdocs\banglatourbd\vendor\yiisoft\yii2\base\View.php(257): yii\base\View->renderPhpFile('C:\\xampp\\htdocs...', Array)
+#3 C:\xampp\htdocs\banglatourbd\vendor\yiisoft\yii2\base\View.php(156): yii\base\View->renderFile('C:\\xampp\\htdocs...', Array, Object(frontend\controllers\SiteController))
+#4 C:\xampp\htdocs\banglatourbd\vendor\yiisoft\yii2\base\Controller.php(386): yii\base\View->render('index', Array, Object(frontend\controllers\SiteController))
+#5 C:\xampp\htdocs\banglatourbd\frontend\controllers\SiteController.php(77): yii\base\Controller->render('index')
+#6 [internal function]: frontend\controllers\SiteController->actionIndex()
+#7 C:\xampp\htdocs\banglatourbd\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#8 C:\xampp\htdocs\banglatourbd\vendor\yiisoft\yii2\base\Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#9 C:\xampp\htdocs\banglatourbd\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction('index', Array)
+#10 C:\xampp\htdocs\banglatourbd\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('site/index', Array)
+#11 C:\xampp\htdocs\banglatourbd\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#12 C:\xampp\htdocs\banglatourbd\frontend\web\index.php(17): yii\base\Application->run()
+#13 {main}
+2019-11-30 14:55:47 [::1][-][ronr235r0scauo5r4er8m7umtv][info][application] $_GET = [
+    'r' => 'site/index'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'advanced-backend' => 'gh66l5seluh4gd8lum1ou09aao'
+    '_csrf-backend' => '6e4e819ad348e6b4818977c851127a4dca1127ef32b8d3d0f1e434816e8b3909a:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"QEUYvyxTzsmITc2tBbHHLALUULsK3Qzh\";}'
+    'advanced-frontend' => 'ronr235r0scauo5r4er8m7umtv'
+    '_csrf-frontend' => 'e08b7c24b5ad8000b2c45b7a9f7c46c2978f75bf65d70f8769725b36b048db56a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"7Isx4-g90Nq6g-fKPQmxF9EJHQYwy5J-\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__captcha/site/captcha' => 'qqhdse'
+    '__captcha/site/captchacount' => 1
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:70.0) Gecko/20100101 Firefox/70.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://localhost/banglatourbd/frontend/web/index.php?r=site%2Flogin'
+    'HTTP_DNT' => '1'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_COOKIE' => 'advanced-backend=gh66l5seluh4gd8lum1ou09aao; _csrf-backend=6e4e819ad348e6b4818977c851127a4dca1127ef32b8d3d0f1e434816e8b3909a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22QEUYvyxTzsmITc2tBbHHLALUULsK3Qzh%22%3B%7D; advanced-frontend=ronr235r0scauo5r4er8m7umtv; _csrf-frontend=e08b7c24b5ad8000b2c45b7a9f7c46c2978f75bf65d70f8769725b36b048db56a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%227Isx4-g90Nq6g-fKPQmxF9EJHQYwy5J-%22%3B%7D'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_PRAGMA' => 'no-cache'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;C:\\Program Files\\Git\\cmd;C:\\xampp\\php;C:\\composer;C:\\Users\\SHOHAN\\AppData\\Local\\Microsoft\\WindowsApps;;C:\\Program Files\\JetBrains\\PhpStorm 2019.2.5\\bin;;C:\\Users\\SHOHAN\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.41 (Win64) OpenSSL/1.1.1c PHP/7.3.11 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.41 (Win64) OpenSSL/1.1.1c PHP/7.3.11'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/xampp/htdocs/banglatourbd/frontend/web/index.php'
+    'REMOTE_PORT' => '4623'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=site%2Findex'
+    'REQUEST_URI' => '/banglatourbd/frontend/web/index.php?r=site%2Findex'
+    'SCRIPT_NAME' => '/banglatourbd/frontend/web/index.php'
+    'PHP_SELF' => '/banglatourbd/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1575122147.321
+    'REQUEST_TIME' => 1575122147
+]
+2019-11-30 18:36:33 [::1][-][ronr235r0scauo5r4er8m7umtv][error][yii\base\ErrorException:2] yii\base\ErrorException: The use statement with non-compound name 'Yii' has no effect in C:\xampp\htdocs\banglatourbd\frontend\views\site\index.php:3
+Stack trace:
+#0 C:\xampp\htdocs\banglatourbd\vendor\yiisoft\yii2\base\View.php(348): yii\base\ErrorHandler->handleError(2, 'The use stateme...', 'C:\\xampp\\htdocs...', 3, Array)
+#1 C:\xampp\htdocs\banglatourbd\vendor\yiisoft\yii2\base\View.php(348): require()
+#2 C:\xampp\htdocs\banglatourbd\vendor\yiisoft\yii2\base\View.php(257): yii\base\View->renderPhpFile('C:\\xampp\\htdocs...', Array)
+#3 C:\xampp\htdocs\banglatourbd\vendor\yiisoft\yii2\base\View.php(156): yii\base\View->renderFile('C:\\xampp\\htdocs...', Array, Object(frontend\controllers\SiteController))
+#4 C:\xampp\htdocs\banglatourbd\vendor\yiisoft\yii2\base\Controller.php(386): yii\base\View->render('index', Array, Object(frontend\controllers\SiteController))
+#5 C:\xampp\htdocs\banglatourbd\frontend\controllers\SiteController.php(77): yii\base\Controller->render('index')
+#6 [internal function]: frontend\controllers\SiteController->actionIndex()
+#7 C:\xampp\htdocs\banglatourbd\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#8 C:\xampp\htdocs\banglatourbd\vendor\yiisoft\yii2\base\Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#9 C:\xampp\htdocs\banglatourbd\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction('index', Array)
+#10 C:\xampp\htdocs\banglatourbd\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('site/index', Array)
+#11 C:\xampp\htdocs\banglatourbd\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#12 C:\xampp\htdocs\banglatourbd\frontend\web\index.php(17): yii\base\Application->run()
+#13 {main}
+2019-11-30 18:36:33 [::1][-][ronr235r0scauo5r4er8m7umtv][info][application] $_GET = [
+    'r' => 'site/index'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'advanced-backend' => 'gh66l5seluh4gd8lum1ou09aao'
+    '_csrf-backend' => '6e4e819ad348e6b4818977c851127a4dca1127ef32b8d3d0f1e434816e8b3909a:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"QEUYvyxTzsmITc2tBbHHLALUULsK3Qzh\";}'
+    'advanced-frontend' => 'ronr235r0scauo5r4er8m7umtv'
+    '_csrf-frontend' => 'e08b7c24b5ad8000b2c45b7a9f7c46c2978f75bf65d70f8769725b36b048db56a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"7Isx4-g90Nq6g-fKPQmxF9EJHQYwy5J-\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:70.0) Gecko/20100101 Firefox/70.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://localhost/banglatourbd/frontend/web/index.php?r=site%2Flogin'
+    'HTTP_DNT' => '1'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_COOKIE' => 'advanced-backend=gh66l5seluh4gd8lum1ou09aao; _csrf-backend=6e4e819ad348e6b4818977c851127a4dca1127ef32b8d3d0f1e434816e8b3909a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22QEUYvyxTzsmITc2tBbHHLALUULsK3Qzh%22%3B%7D; advanced-frontend=ronr235r0scauo5r4er8m7umtv; _csrf-frontend=e08b7c24b5ad8000b2c45b7a9f7c46c2978f75bf65d70f8769725b36b048db56a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%227Isx4-g90Nq6g-fKPQmxF9EJHQYwy5J-%22%3B%7D'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_PRAGMA' => 'no-cache'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;C:\\Program Files\\Git\\cmd;C:\\xampp\\php;C:\\composer;C:\\Users\\SHOHAN\\AppData\\Local\\Microsoft\\WindowsApps;;C:\\Program Files\\JetBrains\\PhpStorm 2019.2.5\\bin;;C:\\Users\\SHOHAN\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.41 (Win64) OpenSSL/1.1.1c PHP/7.3.11 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.41 (Win64) OpenSSL/1.1.1c PHP/7.3.11'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/xampp/htdocs/banglatourbd/frontend/web/index.php'
+    'REMOTE_PORT' => '6647'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=site%2Findex'
+    'REQUEST_URI' => '/banglatourbd/frontend/web/index.php?r=site%2Findex'
+    'SCRIPT_NAME' => '/banglatourbd/frontend/web/index.php'
+    'PHP_SELF' => '/banglatourbd/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1575135393.311
+    'REQUEST_TIME' => 1575135393
+]
+2019-11-30 20:10:59 [::1][-][ronr235r0scauo5r4er8m7umtv][error][yii\base\InvalidArgumentException] yii\base\InvalidArgumentException: Invalid path alias: @root/frontend/web/uploads/slider/image-35-2518.jpg in C:\xampp\htdocs\banglatourbd\vendor\yiisoft\yii2\BaseYii.php:154
+Stack trace:
+#0 C:\xampp\htdocs\banglatourbd\vendor\yiisoft\yii2\helpers\BaseUrl.php(217): yii\BaseYii::getAlias('@root/frontend/...')
+#1 C:\xampp\htdocs\banglatourbd\frontend\views\site\index.php(16): yii\helpers\BaseUrl::to('@root/frontend/...')
+#2 C:\xampp\htdocs\banglatourbd\vendor\yiisoft\yii2\base\View.php(348): require('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\banglatourbd\vendor\yiisoft\yii2\base\View.php(257): yii\base\View->renderPhpFile('C:\\xampp\\htdocs...', Array)
+#4 C:\xampp\htdocs\banglatourbd\vendor\yiisoft\yii2\base\View.php(156): yii\base\View->renderFile('C:\\xampp\\htdocs...', Array, Object(frontend\controllers\SiteController))
+#5 C:\xampp\htdocs\banglatourbd\vendor\yiisoft\yii2\base\Controller.php(386): yii\base\View->render('index', Array, Object(frontend\controllers\SiteController))
+#6 C:\xampp\htdocs\banglatourbd\frontend\controllers\SiteController.php(77): yii\base\Controller->render('index')
+#7 [internal function]: frontend\controllers\SiteController->actionIndex()
+#8 C:\xampp\htdocs\banglatourbd\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#9 C:\xampp\htdocs\banglatourbd\vendor\yiisoft\yii2\base\Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#10 C:\xampp\htdocs\banglatourbd\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction('index', Array)
+#11 C:\xampp\htdocs\banglatourbd\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('site/index', Array)
+#12 C:\xampp\htdocs\banglatourbd\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#13 C:\xampp\htdocs\banglatourbd\frontend\web\index.php(17): yii\base\Application->run()
+#14 {main}
+2019-11-30 20:10:59 [::1][-][ronr235r0scauo5r4er8m7umtv][info][application] $_GET = [
+    'r' => 'site/index'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'advanced-backend' => 'gh66l5seluh4gd8lum1ou09aao'
+    '_csrf-backend' => '6e4e819ad348e6b4818977c851127a4dca1127ef32b8d3d0f1e434816e8b3909a:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"QEUYvyxTzsmITc2tBbHHLALUULsK3Qzh\";}'
+    'advanced-frontend' => 'ronr235r0scauo5r4er8m7umtv'
+    '_csrf-frontend' => 'e08b7c24b5ad8000b2c45b7a9f7c46c2978f75bf65d70f8769725b36b048db56a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"7Isx4-g90Nq6g-fKPQmxF9EJHQYwy5J-\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:70.0) Gecko/20100101 Firefox/70.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://localhost/banglatourbd/frontend/web/index.php?r=site%2Flogin'
+    'HTTP_DNT' => '1'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_COOKIE' => 'advanced-backend=gh66l5seluh4gd8lum1ou09aao; _csrf-backend=6e4e819ad348e6b4818977c851127a4dca1127ef32b8d3d0f1e434816e8b3909a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22QEUYvyxTzsmITc2tBbHHLALUULsK3Qzh%22%3B%7D; advanced-frontend=ronr235r0scauo5r4er8m7umtv; _csrf-frontend=e08b7c24b5ad8000b2c45b7a9f7c46c2978f75bf65d70f8769725b36b048db56a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%227Isx4-g90Nq6g-fKPQmxF9EJHQYwy5J-%22%3B%7D'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_PRAGMA' => 'no-cache'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;C:\\Program Files\\Git\\cmd;C:\\xampp\\php;C:\\composer;C:\\Users\\SHOHAN\\AppData\\Local\\Microsoft\\WindowsApps;;C:\\Program Files\\JetBrains\\PhpStorm 2019.2.5\\bin;;C:\\Users\\SHOHAN\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.41 (Win64) OpenSSL/1.1.1c PHP/7.3.11 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.41 (Win64) OpenSSL/1.1.1c PHP/7.3.11'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/xampp/htdocs/banglatourbd/frontend/web/index.php'
+    'REMOTE_PORT' => '7913'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=site%2Findex'
+    'REQUEST_URI' => '/banglatourbd/frontend/web/index.php?r=site%2Findex'
+    'SCRIPT_NAME' => '/banglatourbd/frontend/web/index.php'
+    'PHP_SELF' => '/banglatourbd/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1575141059.591
+    'REQUEST_TIME' => 1575141059
+]
+2019-11-30 21:28:50 [::1][-][ronr235r0scauo5r4er8m7umtv][error][yii\base\InvalidArgumentException] yii\base\InvalidArgumentException: Invalid path alias: @root/backend/web/uploads/slider/image-32-4954.jpg in C:\xampp\htdocs\banglatourbd\vendor\yiisoft\yii2\BaseYii.php:154
+Stack trace:
+#0 C:\xampp\htdocs\banglatourbd\vendor\yiisoft\yii2\helpers\BaseUrl.php(217): yii\BaseYii::getAlias('@root/backend/w...')
+#1 C:\xampp\htdocs\banglatourbd\frontend\views\site\index.php(16): yii\helpers\BaseUrl::to('@root/backend/w...')
+#2 C:\xampp\htdocs\banglatourbd\vendor\yiisoft\yii2\base\View.php(348): require('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\banglatourbd\vendor\yiisoft\yii2\base\View.php(257): yii\base\View->renderPhpFile('C:\\xampp\\htdocs...', Array)
+#4 C:\xampp\htdocs\banglatourbd\vendor\yiisoft\yii2\base\View.php(156): yii\base\View->renderFile('C:\\xampp\\htdocs...', Array, Object(frontend\controllers\SiteController))
+#5 C:\xampp\htdocs\banglatourbd\vendor\yiisoft\yii2\base\Controller.php(386): yii\base\View->render('index', Array, Object(frontend\controllers\SiteController))
+#6 C:\xampp\htdocs\banglatourbd\frontend\controllers\SiteController.php(77): yii\base\Controller->render('index')
+#7 [internal function]: frontend\controllers\SiteController->actionIndex()
+#8 C:\xampp\htdocs\banglatourbd\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#9 C:\xampp\htdocs\banglatourbd\vendor\yiisoft\yii2\base\Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#10 C:\xampp\htdocs\banglatourbd\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction('index', Array)
+#11 C:\xampp\htdocs\banglatourbd\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('site/index', Array)
+#12 C:\xampp\htdocs\banglatourbd\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#13 C:\xampp\htdocs\banglatourbd\frontend\web\index.php(17): yii\base\Application->run()
+#14 {main}
+2019-11-30 21:28:50 [::1][-][ronr235r0scauo5r4er8m7umtv][info][application] $_GET = [
+    'r' => 'site/index'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'advanced-backend' => 'gh66l5seluh4gd8lum1ou09aao'
+    '_csrf-backend' => '6e4e819ad348e6b4818977c851127a4dca1127ef32b8d3d0f1e434816e8b3909a:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"QEUYvyxTzsmITc2tBbHHLALUULsK3Qzh\";}'
+    'advanced-frontend' => 'ronr235r0scauo5r4er8m7umtv'
+    '_csrf-frontend' => 'e08b7c24b5ad8000b2c45b7a9f7c46c2978f75bf65d70f8769725b36b048db56a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"7Isx4-g90Nq6g-fKPQmxF9EJHQYwy5J-\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:70.0) Gecko/20100101 Firefox/70.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://localhost/banglatourbd/frontend/web/index.php?r=site%2Flogin'
+    'HTTP_DNT' => '1'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_COOKIE' => 'advanced-backend=gh66l5seluh4gd8lum1ou09aao; _csrf-backend=6e4e819ad348e6b4818977c851127a4dca1127ef32b8d3d0f1e434816e8b3909a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22QEUYvyxTzsmITc2tBbHHLALUULsK3Qzh%22%3B%7D; advanced-frontend=ronr235r0scauo5r4er8m7umtv; _csrf-frontend=e08b7c24b5ad8000b2c45b7a9f7c46c2978f75bf65d70f8769725b36b048db56a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%227Isx4-g90Nq6g-fKPQmxF9EJHQYwy5J-%22%3B%7D'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_PRAGMA' => 'no-cache'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;C:\\Program Files\\Git\\cmd;C:\\xampp\\php;C:\\composer;C:\\Users\\SHOHAN\\AppData\\Local\\Microsoft\\WindowsApps;;C:\\Program Files\\JetBrains\\PhpStorm 2019.2.5\\bin;;C:\\Users\\SHOHAN\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.41 (Win64) OpenSSL/1.1.1c PHP/7.3.11 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.41 (Win64) OpenSSL/1.1.1c PHP/7.3.11'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/xampp/htdocs/banglatourbd/frontend/web/index.php'
+    'REMOTE_PORT' => '8677'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=site%2Findex'
+    'REQUEST_URI' => '/banglatourbd/frontend/web/index.php?r=site%2Findex'
+    'SCRIPT_NAME' => '/banglatourbd/frontend/web/index.php'
+    'PHP_SELF' => '/banglatourbd/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1575145730.164
+    'REQUEST_TIME' => 1575145730
+]
+2019-12-01 06:20:54 [::1][-][mbar94pd2aqh0p3i6majkhtbma][error][yii\base\UnknownPropertyException] yii\base\UnknownPropertyException: Getting unknown property: yii\web\Application::urlManagerBackend in C:\xampp\htdocs\banglatourbd\vendor\yiisoft\yii2\base\Component.php:154
+Stack trace:
+#0 C:\xampp\htdocs\banglatourbd\vendor\yiisoft\yii2\di\ServiceLocator.php(77): yii\base\Component->__get('urlManagerBacke...')
+#1 C:\xampp\htdocs\banglatourbd\frontend\views\site\index.php(16): yii\di\ServiceLocator->__get('urlManagerBacke...')
+#2 C:\xampp\htdocs\banglatourbd\vendor\yiisoft\yii2\base\View.php(348): require('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\banglatourbd\vendor\yiisoft\yii2\base\View.php(257): yii\base\View->renderPhpFile('C:\\xampp\\htdocs...', Array)
+#4 C:\xampp\htdocs\banglatourbd\vendor\yiisoft\yii2\base\View.php(156): yii\base\View->renderFile('C:\\xampp\\htdocs...', Array, Object(frontend\controllers\SiteController))
+#5 C:\xampp\htdocs\banglatourbd\vendor\yiisoft\yii2\base\Controller.php(386): yii\base\View->render('index', Array, Object(frontend\controllers\SiteController))
+#6 C:\xampp\htdocs\banglatourbd\frontend\controllers\SiteController.php(77): yii\base\Controller->render('index')
+#7 [internal function]: frontend\controllers\SiteController->actionIndex()
+#8 C:\xampp\htdocs\banglatourbd\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#9 C:\xampp\htdocs\banglatourbd\vendor\yiisoft\yii2\base\Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#10 C:\xampp\htdocs\banglatourbd\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction('index', Array)
+#11 C:\xampp\htdocs\banglatourbd\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('site/index', Array)
+#12 C:\xampp\htdocs\banglatourbd\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#13 C:\xampp\htdocs\banglatourbd\frontend\web\index.php(17): yii\base\Application->run()
+#14 {main}
+2019-12-01 06:20:54 [::1][-][mbar94pd2aqh0p3i6majkhtbma][info][application] $_GET = [
+    'r' => 'site/index'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'advanced-backend' => 'uonsa23bs689uf3ngtfnoco69d'
+    '_csrf-backend' => 'fd2853b6157d35bcb02b8100adf0df0f925eb37052d4a84f4290de7624d3b741a:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"U-vgDkk5yaL1h5eF0MCHJ-yYDroh8qnd\";}'
+    'advanced-frontend' => 'mbar94pd2aqh0p3i6majkhtbma'
+    '_csrf-frontend' => '02bbe7bd21ba0a4a7df2c4332b17ab2a366f1f8660ac4722a65b19ce1c3dd078a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"qAyU6EyBw3cAzFnNSML3iMJlXuYYhT3J\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:70.0) Gecko/20100101 Firefox/70.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://localhost/banglatourbd/frontend/web/index.php?r=site%2Flogin'
+    'HTTP_DNT' => '1'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_COOKIE' => 'advanced-backend=uonsa23bs689uf3ngtfnoco69d; _csrf-backend=fd2853b6157d35bcb02b8100adf0df0f925eb37052d4a84f4290de7624d3b741a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22U-vgDkk5yaL1h5eF0MCHJ-yYDroh8qnd%22%3B%7D; advanced-frontend=mbar94pd2aqh0p3i6majkhtbma; _csrf-frontend=02bbe7bd21ba0a4a7df2c4332b17ab2a366f1f8660ac4722a65b19ce1c3dd078a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22qAyU6EyBw3cAzFnNSML3iMJlXuYYhT3J%22%3B%7D'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;C:\\Program Files\\Git\\cmd;C:\\xampp\\php;C:\\composer;C:\\Users\\SHOHAN\\AppData\\Local\\Microsoft\\WindowsApps;;C:\\Program Files\\JetBrains\\PhpStorm 2019.2.5\\bin;;C:\\Users\\SHOHAN\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.41 (Win64) OpenSSL/1.1.1c PHP/7.3.11 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.41 (Win64) OpenSSL/1.1.1c PHP/7.3.11'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/xampp/htdocs/banglatourbd/frontend/web/index.php'
+    'REMOTE_PORT' => '9277'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=site%2Findex'
+    'REQUEST_URI' => '/banglatourbd/frontend/web/index.php?r=site%2Findex'
+    'SCRIPT_NAME' => '/banglatourbd/frontend/web/index.php'
+    'PHP_SELF' => '/banglatourbd/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1575177654.725
+    'REQUEST_TIME' => 1575177654
+]
+2019-12-01 06:21:11 [::1][-][mbar94pd2aqh0p3i6majkhtbma][error][yii\base\UnknownPropertyException] yii\base\UnknownPropertyException: Getting unknown property: yii\web\Application::urlManagerBackend in C:\xampp\htdocs\banglatourbd\vendor\yiisoft\yii2\base\Component.php:154
+Stack trace:
+#0 C:\xampp\htdocs\banglatourbd\vendor\yiisoft\yii2\di\ServiceLocator.php(77): yii\base\Component->__get('urlManagerBacke...')
+#1 C:\xampp\htdocs\banglatourbd\frontend\views\site\index.php(16): yii\di\ServiceLocator->__get('urlManagerBacke...')
+#2 C:\xampp\htdocs\banglatourbd\vendor\yiisoft\yii2\base\View.php(348): require('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\banglatourbd\vendor\yiisoft\yii2\base\View.php(257): yii\base\View->renderPhpFile('C:\\xampp\\htdocs...', Array)
+#4 C:\xampp\htdocs\banglatourbd\vendor\yiisoft\yii2\base\View.php(156): yii\base\View->renderFile('C:\\xampp\\htdocs...', Array, Object(frontend\controllers\SiteController))
+#5 C:\xampp\htdocs\banglatourbd\vendor\yiisoft\yii2\base\Controller.php(386): yii\base\View->render('index', Array, Object(frontend\controllers\SiteController))
+#6 C:\xampp\htdocs\banglatourbd\frontend\controllers\SiteController.php(77): yii\base\Controller->render('index')
+#7 [internal function]: frontend\controllers\SiteController->actionIndex()
+#8 C:\xampp\htdocs\banglatourbd\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#9 C:\xampp\htdocs\banglatourbd\vendor\yiisoft\yii2\base\Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#10 C:\xampp\htdocs\banglatourbd\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction('index', Array)
+#11 C:\xampp\htdocs\banglatourbd\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('site/index', Array)
+#12 C:\xampp\htdocs\banglatourbd\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#13 C:\xampp\htdocs\banglatourbd\frontend\web\index.php(17): yii\base\Application->run()
+#14 {main}
+2019-12-01 06:21:11 [::1][-][mbar94pd2aqh0p3i6majkhtbma][info][application] $_GET = [
+    'r' => 'site/index'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'advanced-backend' => 'uonsa23bs689uf3ngtfnoco69d'
+    '_csrf-backend' => 'fd2853b6157d35bcb02b8100adf0df0f925eb37052d4a84f4290de7624d3b741a:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"U-vgDkk5yaL1h5eF0MCHJ-yYDroh8qnd\";}'
+    'advanced-frontend' => 'mbar94pd2aqh0p3i6majkhtbma'
+    '_csrf-frontend' => '02bbe7bd21ba0a4a7df2c4332b17ab2a366f1f8660ac4722a65b19ce1c3dd078a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"qAyU6EyBw3cAzFnNSML3iMJlXuYYhT3J\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:70.0) Gecko/20100101 Firefox/70.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://localhost/banglatourbd/frontend/web/index.php?r=site%2Flogin'
+    'HTTP_DNT' => '1'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_COOKIE' => 'advanced-backend=uonsa23bs689uf3ngtfnoco69d; _csrf-backend=fd2853b6157d35bcb02b8100adf0df0f925eb37052d4a84f4290de7624d3b741a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22U-vgDkk5yaL1h5eF0MCHJ-yYDroh8qnd%22%3B%7D; advanced-frontend=mbar94pd2aqh0p3i6majkhtbma; _csrf-frontend=02bbe7bd21ba0a4a7df2c4332b17ab2a366f1f8660ac4722a65b19ce1c3dd078a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22qAyU6EyBw3cAzFnNSML3iMJlXuYYhT3J%22%3B%7D'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;C:\\Program Files\\Git\\cmd;C:\\xampp\\php;C:\\composer;C:\\Users\\SHOHAN\\AppData\\Local\\Microsoft\\WindowsApps;;C:\\Program Files\\JetBrains\\PhpStorm 2019.2.5\\bin;;C:\\Users\\SHOHAN\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.41 (Win64) OpenSSL/1.1.1c PHP/7.3.11 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.41 (Win64) OpenSSL/1.1.1c PHP/7.3.11'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/xampp/htdocs/banglatourbd/frontend/web/index.php'
+    'REMOTE_PORT' => '9284'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=site%2Findex'
+    'REQUEST_URI' => '/banglatourbd/frontend/web/index.php?r=site%2Findex'
+    'SCRIPT_NAME' => '/banglatourbd/frontend/web/index.php'
+    'PHP_SELF' => '/banglatourbd/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1575177671.76
+    'REQUEST_TIME' => 1575177671
+]
+2019-12-01 06:21:28 [::1][-][mbar94pd2aqh0p3i6majkhtbma][error][yii\base\UnknownPropertyException] yii\base\UnknownPropertyException: Getting unknown property: yii\web\Application::urlManagerBackend in C:\xampp\htdocs\banglatourbd\vendor\yiisoft\yii2\base\Component.php:154
+Stack trace:
+#0 C:\xampp\htdocs\banglatourbd\vendor\yiisoft\yii2\di\ServiceLocator.php(77): yii\base\Component->__get('urlManagerBacke...')
+#1 C:\xampp\htdocs\banglatourbd\frontend\views\site\index.php(16): yii\di\ServiceLocator->__get('urlManagerBacke...')
+#2 C:\xampp\htdocs\banglatourbd\vendor\yiisoft\yii2\base\View.php(348): require('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\banglatourbd\vendor\yiisoft\yii2\base\View.php(257): yii\base\View->renderPhpFile('C:\\xampp\\htdocs...', Array)
+#4 C:\xampp\htdocs\banglatourbd\vendor\yiisoft\yii2\base\View.php(156): yii\base\View->renderFile('C:\\xampp\\htdocs...', Array, Object(frontend\controllers\SiteController))
+#5 C:\xampp\htdocs\banglatourbd\vendor\yiisoft\yii2\base\Controller.php(386): yii\base\View->render('index', Array, Object(frontend\controllers\SiteController))
+#6 C:\xampp\htdocs\banglatourbd\frontend\controllers\SiteController.php(77): yii\base\Controller->render('index')
+#7 [internal function]: frontend\controllers\SiteController->actionIndex()
+#8 C:\xampp\htdocs\banglatourbd\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#9 C:\xampp\htdocs\banglatourbd\vendor\yiisoft\yii2\base\Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#10 C:\xampp\htdocs\banglatourbd\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction('index', Array)
+#11 C:\xampp\htdocs\banglatourbd\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('site/index', Array)
+#12 C:\xampp\htdocs\banglatourbd\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#13 C:\xampp\htdocs\banglatourbd\frontend\web\index.php(17): yii\base\Application->run()
+#14 {main}
+2019-12-01 06:21:28 [::1][-][mbar94pd2aqh0p3i6majkhtbma][info][application] $_GET = [
+    'r' => 'site/index'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'advanced-backend' => 'uonsa23bs689uf3ngtfnoco69d'
+    '_csrf-backend' => 'fd2853b6157d35bcb02b8100adf0df0f925eb37052d4a84f4290de7624d3b741a:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"U-vgDkk5yaL1h5eF0MCHJ-yYDroh8qnd\";}'
+    'advanced-frontend' => 'mbar94pd2aqh0p3i6majkhtbma'
+    '_csrf-frontend' => '02bbe7bd21ba0a4a7df2c4332b17ab2a366f1f8660ac4722a65b19ce1c3dd078a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"qAyU6EyBw3cAzFnNSML3iMJlXuYYhT3J\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:70.0) Gecko/20100101 Firefox/70.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://localhost/banglatourbd/frontend/web/index.php?r=site%2Flogin'
+    'HTTP_DNT' => '1'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_COOKIE' => 'advanced-backend=uonsa23bs689uf3ngtfnoco69d; _csrf-backend=fd2853b6157d35bcb02b8100adf0df0f925eb37052d4a84f4290de7624d3b741a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22U-vgDkk5yaL1h5eF0MCHJ-yYDroh8qnd%22%3B%7D; advanced-frontend=mbar94pd2aqh0p3i6majkhtbma; _csrf-frontend=02bbe7bd21ba0a4a7df2c4332b17ab2a366f1f8660ac4722a65b19ce1c3dd078a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22qAyU6EyBw3cAzFnNSML3iMJlXuYYhT3J%22%3B%7D'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;C:\\Program Files\\Git\\cmd;C:\\xampp\\php;C:\\composer;C:\\Users\\SHOHAN\\AppData\\Local\\Microsoft\\WindowsApps;;C:\\Program Files\\JetBrains\\PhpStorm 2019.2.5\\bin;;C:\\Users\\SHOHAN\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.41 (Win64) OpenSSL/1.1.1c PHP/7.3.11 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.41 (Win64) OpenSSL/1.1.1c PHP/7.3.11'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/xampp/htdocs/banglatourbd/frontend/web/index.php'
+    'REMOTE_PORT' => '9292'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=site%2Findex'
+    'REQUEST_URI' => '/banglatourbd/frontend/web/index.php?r=site%2Findex'
+    'SCRIPT_NAME' => '/banglatourbd/frontend/web/index.php'
+    'PHP_SELF' => '/banglatourbd/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1575177688.568
+    'REQUEST_TIME' => 1575177688
+]
+2019-12-01 06:57:39 [::1][-][mbar94pd2aqh0p3i6majkhtbma][error][Error] Error: Call to undefined method Yii::app() in C:\xampp\htdocs\banglatourbd\frontend\views\site\index.php:16
+Stack trace:
+#0 C:\xampp\htdocs\banglatourbd\vendor\yiisoft\yii2\base\View.php(348): require()
+#1 C:\xampp\htdocs\banglatourbd\vendor\yiisoft\yii2\base\View.php(257): yii\base\View->renderPhpFile('C:\\xampp\\htdocs...', Array)
+#2 C:\xampp\htdocs\banglatourbd\vendor\yiisoft\yii2\base\View.php(156): yii\base\View->renderFile('C:\\xampp\\htdocs...', Array, Object(frontend\controllers\SiteController))
+#3 C:\xampp\htdocs\banglatourbd\vendor\yiisoft\yii2\base\Controller.php(386): yii\base\View->render('index', Array, Object(frontend\controllers\SiteController))
+#4 C:\xampp\htdocs\banglatourbd\frontend\controllers\SiteController.php(77): yii\base\Controller->render('index')
+#5 [internal function]: frontend\controllers\SiteController->actionIndex()
+#6 C:\xampp\htdocs\banglatourbd\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#7 C:\xampp\htdocs\banglatourbd\vendor\yiisoft\yii2\base\Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#8 C:\xampp\htdocs\banglatourbd\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction('index', Array)
+#9 C:\xampp\htdocs\banglatourbd\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('site/index', Array)
+#10 C:\xampp\htdocs\banglatourbd\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#11 C:\xampp\htdocs\banglatourbd\frontend\web\index.php(17): yii\base\Application->run()
+#12 {main}
+2019-12-01 06:57:39 [::1][-][mbar94pd2aqh0p3i6majkhtbma][info][application] $_GET = [
+    'r' => 'site/index'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'advanced-backend' => 'uonsa23bs689uf3ngtfnoco69d'
+    '_csrf-backend' => 'fd2853b6157d35bcb02b8100adf0df0f925eb37052d4a84f4290de7624d3b741a:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"U-vgDkk5yaL1h5eF0MCHJ-yYDroh8qnd\";}'
+    'advanced-frontend' => 'mbar94pd2aqh0p3i6majkhtbma'
+    '_csrf-frontend' => '02bbe7bd21ba0a4a7df2c4332b17ab2a366f1f8660ac4722a65b19ce1c3dd078a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"qAyU6EyBw3cAzFnNSML3iMJlXuYYhT3J\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:70.0) Gecko/20100101 Firefox/70.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://localhost/banglatourbd/frontend/web/index.php?r=site%2Flogin'
+    'HTTP_DNT' => '1'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_COOKIE' => 'advanced-backend=uonsa23bs689uf3ngtfnoco69d; _csrf-backend=fd2853b6157d35bcb02b8100adf0df0f925eb37052d4a84f4290de7624d3b741a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22U-vgDkk5yaL1h5eF0MCHJ-yYDroh8qnd%22%3B%7D; advanced-frontend=mbar94pd2aqh0p3i6majkhtbma; _csrf-frontend=02bbe7bd21ba0a4a7df2c4332b17ab2a366f1f8660ac4722a65b19ce1c3dd078a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22qAyU6EyBw3cAzFnNSML3iMJlXuYYhT3J%22%3B%7D'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_PRAGMA' => 'no-cache'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;C:\\Program Files\\Git\\cmd;C:\\xampp\\php;C:\\composer;C:\\Users\\SHOHAN\\AppData\\Local\\Microsoft\\WindowsApps;;C:\\Program Files\\JetBrains\\PhpStorm 2019.2.5\\bin;;C:\\Users\\SHOHAN\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.41 (Win64) OpenSSL/1.1.1c PHP/7.3.11 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.41 (Win64) OpenSSL/1.1.1c PHP/7.3.11'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/xampp/htdocs/banglatourbd/frontend/web/index.php'
+    'REMOTE_PORT' => '9629'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=site%2Findex'
+    'REQUEST_URI' => '/banglatourbd/frontend/web/index.php?r=site%2Findex'
+    'SCRIPT_NAME' => '/banglatourbd/frontend/web/index.php'
+    'PHP_SELF' => '/banglatourbd/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1575179859.852
+    'REQUEST_TIME' => 1575179859
+]
+2019-12-01 07:49:46 [::1][-][mbar94pd2aqh0p3i6majkhtbma][error][ParseError] ParseError: syntax error, unexpected end of file in C:\xampp\htdocs\banglatourbd\frontend\views\site\index.php:96
+Stack trace:
+#0 C:\xampp\htdocs\banglatourbd\vendor\yiisoft\yii2\base\View.php(257): yii\base\View->renderPhpFile('C:\\xampp\\htdocs...', Array)
+#1 C:\xampp\htdocs\banglatourbd\vendor\yiisoft\yii2\base\View.php(156): yii\base\View->renderFile('C:\\xampp\\htdocs...', Array, Object(frontend\controllers\SiteController))
+#2 C:\xampp\htdocs\banglatourbd\vendor\yiisoft\yii2\base\Controller.php(386): yii\base\View->render('index', Array, Object(frontend\controllers\SiteController))
+#3 C:\xampp\htdocs\banglatourbd\frontend\controllers\SiteController.php(81): yii\base\Controller->render('index', Array)
+#4 [internal function]: frontend\controllers\SiteController->actionIndex()
+#5 C:\xampp\htdocs\banglatourbd\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#6 C:\xampp\htdocs\banglatourbd\vendor\yiisoft\yii2\base\Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#7 C:\xampp\htdocs\banglatourbd\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction('index', Array)
+#8 C:\xampp\htdocs\banglatourbd\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('site/index', Array)
+#9 C:\xampp\htdocs\banglatourbd\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#10 C:\xampp\htdocs\banglatourbd\frontend\web\index.php(17): yii\base\Application->run()
+#11 {main}
+2019-12-01 07:49:46 [::1][-][mbar94pd2aqh0p3i6majkhtbma][info][application] $_GET = [
+    'r' => 'site/index'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'advanced-backend' => 'uonsa23bs689uf3ngtfnoco69d'
+    '_csrf-backend' => 'fd2853b6157d35bcb02b8100adf0df0f925eb37052d4a84f4290de7624d3b741a:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"U-vgDkk5yaL1h5eF0MCHJ-yYDroh8qnd\";}'
+    'advanced-frontend' => 'mbar94pd2aqh0p3i6majkhtbma'
+    '_csrf-frontend' => '02bbe7bd21ba0a4a7df2c4332b17ab2a366f1f8660ac4722a65b19ce1c3dd078a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"qAyU6EyBw3cAzFnNSML3iMJlXuYYhT3J\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:70.0) Gecko/20100101 Firefox/70.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://localhost/banglatourbd/frontend/web/index.php?r=site%2Flogin'
+    'HTTP_DNT' => '1'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_COOKIE' => 'advanced-backend=uonsa23bs689uf3ngtfnoco69d; _csrf-backend=fd2853b6157d35bcb02b8100adf0df0f925eb37052d4a84f4290de7624d3b741a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22U-vgDkk5yaL1h5eF0MCHJ-yYDroh8qnd%22%3B%7D; advanced-frontend=mbar94pd2aqh0p3i6majkhtbma; _csrf-frontend=02bbe7bd21ba0a4a7df2c4332b17ab2a366f1f8660ac4722a65b19ce1c3dd078a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22qAyU6EyBw3cAzFnNSML3iMJlXuYYhT3J%22%3B%7D'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_PRAGMA' => 'no-cache'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;C:\\Program Files\\Git\\cmd;C:\\xampp\\php;C:\\composer;C:\\Users\\SHOHAN\\AppData\\Local\\Microsoft\\WindowsApps;;C:\\Program Files\\JetBrains\\PhpStorm 2019.2.5\\bin;;C:\\Users\\SHOHAN\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.41 (Win64) OpenSSL/1.1.1c PHP/7.3.11 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.41 (Win64) OpenSSL/1.1.1c PHP/7.3.11'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/xampp/htdocs/banglatourbd/frontend/web/index.php'
+    'REMOTE_PORT' => '10149'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=site%2Findex'
+    'REQUEST_URI' => '/banglatourbd/frontend/web/index.php?r=site%2Findex'
+    'SCRIPT_NAME' => '/banglatourbd/frontend/web/index.php'
+    'PHP_SELF' => '/banglatourbd/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1575182986.093
+    'REQUEST_TIME' => 1575182986
+]
+2019-12-01 07:50:57 [::1][-][mbar94pd2aqh0p3i6majkhtbma][error][yii\base\InvalidArgumentException] yii\base\InvalidArgumentException: Invalid path alias: @webuploads/slider/image-43-8721.jpg in C:\xampp\htdocs\banglatourbd\vendor\yiisoft\yii2\BaseYii.php:154
+Stack trace:
+#0 C:\xampp\htdocs\banglatourbd\vendor\yiisoft\yii2\helpers\BaseUrl.php(217): yii\BaseYii::getAlias('@webuploads/sli...')
+#1 C:\xampp\htdocs\banglatourbd\frontend\views\site\index.php(20): yii\helpers\BaseUrl::to('@webuploads/sli...')
+#2 C:\xampp\htdocs\banglatourbd\vendor\yiisoft\yii2\base\View.php(348): require('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\banglatourbd\vendor\yiisoft\yii2\base\View.php(257): yii\base\View->renderPhpFile('C:\\xampp\\htdocs...', Array)
+#4 C:\xampp\htdocs\banglatourbd\vendor\yiisoft\yii2\base\View.php(156): yii\base\View->renderFile('C:\\xampp\\htdocs...', Array, Object(frontend\controllers\SiteController))
+#5 C:\xampp\htdocs\banglatourbd\vendor\yiisoft\yii2\base\Controller.php(386): yii\base\View->render('index', Array, Object(frontend\controllers\SiteController))
+#6 C:\xampp\htdocs\banglatourbd\frontend\controllers\SiteController.php(81): yii\base\Controller->render('index', Array)
+#7 [internal function]: frontend\controllers\SiteController->actionIndex()
+#8 C:\xampp\htdocs\banglatourbd\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#9 C:\xampp\htdocs\banglatourbd\vendor\yiisoft\yii2\base\Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#10 C:\xampp\htdocs\banglatourbd\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction('index', Array)
+#11 C:\xampp\htdocs\banglatourbd\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('site/index', Array)
+#12 C:\xampp\htdocs\banglatourbd\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#13 C:\xampp\htdocs\banglatourbd\frontend\web\index.php(17): yii\base\Application->run()
+#14 {main}
+2019-12-01 07:50:57 [::1][-][mbar94pd2aqh0p3i6majkhtbma][info][application] $_GET = [
+    'r' => 'site/index'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'advanced-backend' => 'uonsa23bs689uf3ngtfnoco69d'
+    '_csrf-backend' => 'fd2853b6157d35bcb02b8100adf0df0f925eb37052d4a84f4290de7624d3b741a:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"U-vgDkk5yaL1h5eF0MCHJ-yYDroh8qnd\";}'
+    'advanced-frontend' => 'mbar94pd2aqh0p3i6majkhtbma'
+    '_csrf-frontend' => '02bbe7bd21ba0a4a7df2c4332b17ab2a366f1f8660ac4722a65b19ce1c3dd078a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"qAyU6EyBw3cAzFnNSML3iMJlXuYYhT3J\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:70.0) Gecko/20100101 Firefox/70.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://localhost/banglatourbd/frontend/web/index.php?r=site%2Flogin'
+    'HTTP_DNT' => '1'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_COOKIE' => 'advanced-backend=uonsa23bs689uf3ngtfnoco69d; _csrf-backend=fd2853b6157d35bcb02b8100adf0df0f925eb37052d4a84f4290de7624d3b741a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22U-vgDkk5yaL1h5eF0MCHJ-yYDroh8qnd%22%3B%7D; advanced-frontend=mbar94pd2aqh0p3i6majkhtbma; _csrf-frontend=02bbe7bd21ba0a4a7df2c4332b17ab2a366f1f8660ac4722a65b19ce1c3dd078a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22qAyU6EyBw3cAzFnNSML3iMJlXuYYhT3J%22%3B%7D'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_PRAGMA' => 'no-cache'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;C:\\Program Files\\Git\\cmd;C:\\xampp\\php;C:\\composer;C:\\Users\\SHOHAN\\AppData\\Local\\Microsoft\\WindowsApps;;C:\\Program Files\\JetBrains\\PhpStorm 2019.2.5\\bin;;C:\\Users\\SHOHAN\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.41 (Win64) OpenSSL/1.1.1c PHP/7.3.11 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.41 (Win64) OpenSSL/1.1.1c PHP/7.3.11'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/xampp/htdocs/banglatourbd/frontend/web/index.php'
+    'REMOTE_PORT' => '10159'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=site%2Findex'
+    'REQUEST_URI' => '/banglatourbd/frontend/web/index.php?r=site%2Findex'
+    'SCRIPT_NAME' => '/banglatourbd/frontend/web/index.php'
+    'PHP_SELF' => '/banglatourbd/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1575183057.478
+    'REQUEST_TIME' => 1575183057
+]
+2019-12-01 07:53:15 [::1][-][mbar94pd2aqh0p3i6majkhtbma][error][yii\base\ErrorException:8] yii\base\ErrorException: Trying to get property 'image_path' of non-object in C:\xampp\htdocs\banglatourbd\frontend\views\site\index.php:19
+Stack trace:
+#0 C:\xampp\htdocs\banglatourbd\frontend\views\site\index.php(19): yii\base\ErrorHandler->handleError(8, 'Trying to get p...', 'C:\\xampp\\htdocs...', 19, Array)
+#1 C:\xampp\htdocs\banglatourbd\vendor\yiisoft\yii2\base\View.php(348): require('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\banglatourbd\vendor\yiisoft\yii2\base\View.php(257): yii\base\View->renderPhpFile('C:\\xampp\\htdocs...', Array)
+#3 C:\xampp\htdocs\banglatourbd\vendor\yiisoft\yii2\base\View.php(156): yii\base\View->renderFile('C:\\xampp\\htdocs...', Array, Object(frontend\controllers\SiteController))
+#4 C:\xampp\htdocs\banglatourbd\vendor\yiisoft\yii2\base\Controller.php(386): yii\base\View->render('index', Array, Object(frontend\controllers\SiteController))
+#5 C:\xampp\htdocs\banglatourbd\frontend\controllers\SiteController.php(81): yii\base\Controller->render('index', Array)
+#6 [internal function]: frontend\controllers\SiteController->actionIndex()
+#7 C:\xampp\htdocs\banglatourbd\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#8 C:\xampp\htdocs\banglatourbd\vendor\yiisoft\yii2\base\Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#9 C:\xampp\htdocs\banglatourbd\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction('index', Array)
+#10 C:\xampp\htdocs\banglatourbd\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('site/index', Array)
+#11 C:\xampp\htdocs\banglatourbd\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#12 C:\xampp\htdocs\banglatourbd\frontend\web\index.php(17): yii\base\Application->run()
+#13 {main}
+2019-12-01 07:53:15 [::1][-][mbar94pd2aqh0p3i6majkhtbma][info][application] $_GET = [
+    'r' => 'site/index'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'advanced-backend' => 'uonsa23bs689uf3ngtfnoco69d'
+    '_csrf-backend' => 'fd2853b6157d35bcb02b8100adf0df0f925eb37052d4a84f4290de7624d3b741a:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"U-vgDkk5yaL1h5eF0MCHJ-yYDroh8qnd\";}'
+    'advanced-frontend' => 'mbar94pd2aqh0p3i6majkhtbma'
+    '_csrf-frontend' => '02bbe7bd21ba0a4a7df2c4332b17ab2a366f1f8660ac4722a65b19ce1c3dd078a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"qAyU6EyBw3cAzFnNSML3iMJlXuYYhT3J\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:70.0) Gecko/20100101 Firefox/70.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://localhost/banglatourbd/frontend/web/index.php?r=site%2Flogin'
+    'HTTP_DNT' => '1'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_COOKIE' => 'advanced-backend=uonsa23bs689uf3ngtfnoco69d; _csrf-backend=fd2853b6157d35bcb02b8100adf0df0f925eb37052d4a84f4290de7624d3b741a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22U-vgDkk5yaL1h5eF0MCHJ-yYDroh8qnd%22%3B%7D; advanced-frontend=mbar94pd2aqh0p3i6majkhtbma; _csrf-frontend=02bbe7bd21ba0a4a7df2c4332b17ab2a366f1f8660ac4722a65b19ce1c3dd078a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22qAyU6EyBw3cAzFnNSML3iMJlXuYYhT3J%22%3B%7D'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_PRAGMA' => 'no-cache'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;C:\\Program Files\\Git\\cmd;C:\\xampp\\php;C:\\composer;C:\\Users\\SHOHAN\\AppData\\Local\\Microsoft\\WindowsApps;;C:\\Program Files\\JetBrains\\PhpStorm 2019.2.5\\bin;;C:\\Users\\SHOHAN\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.41 (Win64) OpenSSL/1.1.1c PHP/7.3.11 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.41 (Win64) OpenSSL/1.1.1c PHP/7.3.11'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/xampp/htdocs/banglatourbd/frontend/web/index.php'
+    'REMOTE_PORT' => '10223'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=site%2Findex'
+    'REQUEST_URI' => '/banglatourbd/frontend/web/index.php?r=site%2Findex'
+    'SCRIPT_NAME' => '/banglatourbd/frontend/web/index.php'
+    'PHP_SELF' => '/banglatourbd/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1575183195.114
+    'REQUEST_TIME' => 1575183195
+]
+2019-12-01 07:53:46 [::1][-][mbar94pd2aqh0p3i6majkhtbma][error][yii\base\ErrorException:2] yii\base\ErrorException: Invalid argument supplied for foreach() in C:\xampp\htdocs\banglatourbd\frontend\views\site\index.php:16
+Stack trace:
+#0 C:\xampp\htdocs\banglatourbd\frontend\views\site\index.php(16): yii\base\ErrorHandler->handleError(2, 'Invalid argumen...', 'C:\\xampp\\htdocs...', 16, Array)
+#1 C:\xampp\htdocs\banglatourbd\vendor\yiisoft\yii2\base\View.php(348): require('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\banglatourbd\vendor\yiisoft\yii2\base\View.php(257): yii\base\View->renderPhpFile('C:\\xampp\\htdocs...', Array)
+#3 C:\xampp\htdocs\banglatourbd\vendor\yiisoft\yii2\base\View.php(156): yii\base\View->renderFile('C:\\xampp\\htdocs...', Array, Object(frontend\controllers\SiteController))
+#4 C:\xampp\htdocs\banglatourbd\vendor\yiisoft\yii2\base\Controller.php(386): yii\base\View->render('index', Array, Object(frontend\controllers\SiteController))
+#5 C:\xampp\htdocs\banglatourbd\frontend\controllers\SiteController.php(81): yii\base\Controller->render('index', Array)
+#6 [internal function]: frontend\controllers\SiteController->actionIndex()
+#7 C:\xampp\htdocs\banglatourbd\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#8 C:\xampp\htdocs\banglatourbd\vendor\yiisoft\yii2\base\Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#9 C:\xampp\htdocs\banglatourbd\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction('index', Array)
+#10 C:\xampp\htdocs\banglatourbd\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('site/index', Array)
+#11 C:\xampp\htdocs\banglatourbd\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#12 C:\xampp\htdocs\banglatourbd\frontend\web\index.php(17): yii\base\Application->run()
+#13 {main}
+2019-12-01 07:53:46 [::1][-][mbar94pd2aqh0p3i6majkhtbma][info][application] $_GET = [
+    'r' => 'site/index'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'advanced-backend' => 'uonsa23bs689uf3ngtfnoco69d'
+    '_csrf-backend' => 'fd2853b6157d35bcb02b8100adf0df0f925eb37052d4a84f4290de7624d3b741a:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"U-vgDkk5yaL1h5eF0MCHJ-yYDroh8qnd\";}'
+    'advanced-frontend' => 'mbar94pd2aqh0p3i6majkhtbma'
+    '_csrf-frontend' => '02bbe7bd21ba0a4a7df2c4332b17ab2a366f1f8660ac4722a65b19ce1c3dd078a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"qAyU6EyBw3cAzFnNSML3iMJlXuYYhT3J\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:70.0) Gecko/20100101 Firefox/70.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://localhost/banglatourbd/frontend/web/index.php?r=site%2Flogin'
+    'HTTP_DNT' => '1'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_COOKIE' => 'advanced-backend=uonsa23bs689uf3ngtfnoco69d; _csrf-backend=fd2853b6157d35bcb02b8100adf0df0f925eb37052d4a84f4290de7624d3b741a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22U-vgDkk5yaL1h5eF0MCHJ-yYDroh8qnd%22%3B%7D; advanced-frontend=mbar94pd2aqh0p3i6majkhtbma; _csrf-frontend=02bbe7bd21ba0a4a7df2c4332b17ab2a366f1f8660ac4722a65b19ce1c3dd078a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22qAyU6EyBw3cAzFnNSML3iMJlXuYYhT3J%22%3B%7D'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_PRAGMA' => 'no-cache'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;C:\\Program Files\\Git\\cmd;C:\\xampp\\php;C:\\composer;C:\\Users\\SHOHAN\\AppData\\Local\\Microsoft\\WindowsApps;;C:\\Program Files\\JetBrains\\PhpStorm 2019.2.5\\bin;;C:\\Users\\SHOHAN\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.41 (Win64) OpenSSL/1.1.1c PHP/7.3.11 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.41 (Win64) OpenSSL/1.1.1c PHP/7.3.11'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/xampp/htdocs/banglatourbd/frontend/web/index.php'
+    'REMOTE_PORT' => '10230'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=site%2Findex'
+    'REQUEST_URI' => '/banglatourbd/frontend/web/index.php?r=site%2Findex'
+    'SCRIPT_NAME' => '/banglatourbd/frontend/web/index.php'
+    'PHP_SELF' => '/banglatourbd/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1575183226.215
+    'REQUEST_TIME' => 1575183226
+]
+2019-12-01 11:14:14 [::1][-][jn3fplqssjsnr0tne8hji2eetn][error][yii\base\InvalidConfigException] yii\base\InvalidConfigException: The table does not exist: {{%user}} in C:\xampp\htdocs\banglatourbd-dynamic-slider-ok\vendor\yiisoft\yii2\db\ActiveRecord.php:438
+Stack trace:
+#0 C:\xampp\htdocs\banglatourbd-dynamic-slider-ok\vendor\yiisoft\yii2\db\ActiveRecord.php(262): yii\db\ActiveRecord::getTableSchema()
+#1 C:\xampp\htdocs\banglatourbd-dynamic-slider-ok\vendor\yiisoft\yii2\db\ActiveRecord.php(234): yii\db\ActiveRecord::filterValidColumnNames(Object(yii\db\Connection), Array)
+#2 C:\xampp\htdocs\banglatourbd-dynamic-slider-ok\vendor\yiisoft\yii2\db\ActiveRecord.php(191): yii\db\ActiveRecord::filterCondition(Array, Array)
+#3 C:\xampp\htdocs\banglatourbd-dynamic-slider-ok\vendor\yiisoft\yii2\db\BaseActiveRecord.php(112): yii\db\ActiveRecord::findByCondition(Array)
+#4 C:\xampp\htdocs\banglatourbd-dynamic-slider-ok\common\models\User.php(85): yii\db\BaseActiveRecord::findOne(Array)
+#5 C:\xampp\htdocs\banglatourbd-dynamic-slider-ok\common\models\LoginForm.php(73): common\models\User::findByUsername('user')
+#6 C:\xampp\htdocs\banglatourbd-dynamic-slider-ok\common\models\LoginForm.php(44): common\models\LoginForm->getUser()
+#7 [internal function]: common\models\LoginForm->validatePassword('password', NULL, Object(yii\validators\InlineValidator))
+#8 C:\xampp\htdocs\banglatourbd-dynamic-slider-ok\vendor\yiisoft\yii2\validators\InlineValidator.php(72): call_user_func(Array, 'password', NULL, Object(yii\validators\InlineValidator))
+#9 C:\xampp\htdocs\banglatourbd-dynamic-slider-ok\vendor\yiisoft\yii2\validators\Validator.php(257): yii\validators\InlineValidator->validateAttribute(Object(common\models\LoginForm), 'password')
+#10 C:\xampp\htdocs\banglatourbd-dynamic-slider-ok\vendor\yiisoft\yii2\base\Model.php(367): yii\validators\Validator->validateAttributes(Object(common\models\LoginForm), Array)
+#11 C:\xampp\htdocs\banglatourbd-dynamic-slider-ok\common\models\LoginForm.php(58): yii\base\Model->validate()
+#12 C:\xampp\htdocs\banglatourbd-dynamic-slider-ok\frontend\controllers\SiteController.php(96): common\models\LoginForm->login()
+#13 [internal function]: frontend\controllers\SiteController->actionLogin()
+#14 C:\xampp\htdocs\banglatourbd-dynamic-slider-ok\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#15 C:\xampp\htdocs\banglatourbd-dynamic-slider-ok\vendor\yiisoft\yii2\base\Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#16 C:\xampp\htdocs\banglatourbd-dynamic-slider-ok\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction('login', Array)
+#17 C:\xampp\htdocs\banglatourbd-dynamic-slider-ok\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('site/login', Array)
+#18 C:\xampp\htdocs\banglatourbd-dynamic-slider-ok\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#19 C:\xampp\htdocs\banglatourbd-dynamic-slider-ok\frontend\web\index.php(17): yii\base\Application->run()
+#20 {main}
+2019-12-01 11:14:14 [::1][-][jn3fplqssjsnr0tne8hji2eetn][info][application] $_GET = [
+    'r' => 'site/login'
+]
+
+$_POST = [
+    '_frontendCSRF' => 'xbah64m8dkXCDOrpWLV9qSrTbhBEQ-Q7yZ74yh_3tEm3h5GM_MgvfIg1rrYp0zWRHoA2JnQahmqFs5S_c4T7Kw=='
+    'LoginForm' => [
+        'username' => 'user'
+        'password' => '123456'
+        'rememberMe' => '1'
+    ]
+    'login-button' => ''
+]
+
+$_FILES = []
+
+$_COOKIE = [
+    'advanced-backend' => 'uonsa23bs689uf3ngtfnoco69d'
+    '_csrf-backend' => 'fd2853b6157d35bcb02b8100adf0df0f925eb37052d4a84f4290de7624d3b741a:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"U-vgDkk5yaL1h5eF0MCHJ-yYDroh8qnd\";}'
+    'advanced-frontend' => 'mbar94pd2aqh0p3i6majkhtbma'
+    '_csrf-frontend' => '02bbe7bd21ba0a4a7df2c4332b17ab2a366f1f8660ac4722a65b19ce1c3dd078a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"qAyU6EyBw3cAzFnNSML3iMJlXuYYhT3J\";}'
+    'PHPFRONTSESSID' => 'jn3fplqssjsnr0tne8hji2eetn'
+    '_frontendCSRF' => '475bbd8be1e186d3bf89355f084e91687d306dc67c528a2c4c6b7816f9ff4fada:2:{i:0;s:13:\"_frontendCSRF\";i:1;s:32:\"r10gutY9J9D_qfH84SX60YbQL-lulsOb\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:70.0) Gecko/20100101 Firefox/70.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://localhost/banglatourbd-dynamic-slider-ok/frontend/web/index.php?r=site%2Flogin'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded'
+    'CONTENT_LENGTH' => '236'
+    'HTTP_ORIGIN' => 'http://localhost'
+    'HTTP_DNT' => '1'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_COOKIE' => 'advanced-backend=uonsa23bs689uf3ngtfnoco69d; _csrf-backend=fd2853b6157d35bcb02b8100adf0df0f925eb37052d4a84f4290de7624d3b741a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22U-vgDkk5yaL1h5eF0MCHJ-yYDroh8qnd%22%3B%7D; advanced-frontend=mbar94pd2aqh0p3i6majkhtbma; _csrf-frontend=02bbe7bd21ba0a4a7df2c4332b17ab2a366f1f8660ac4722a65b19ce1c3dd078a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22qAyU6EyBw3cAzFnNSML3iMJlXuYYhT3J%22%3B%7D; PHPFRONTSESSID=jn3fplqssjsnr0tne8hji2eetn; _frontendCSRF=475bbd8be1e186d3bf89355f084e91687d306dc67c528a2c4c6b7816f9ff4fada%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_frontendCSRF%22%3Bi%3A1%3Bs%3A32%3A%22r10gutY9J9D_qfH84SX60YbQL-lulsOb%22%3B%7D'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;C:\\Program Files\\Git\\cmd;C:\\xampp\\php;C:\\composer;C:\\Users\\SHOHAN\\AppData\\Local\\Microsoft\\WindowsApps;;C:\\Program Files\\JetBrains\\PhpStorm 2019.2.5\\bin;;C:\\Users\\SHOHAN\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.41 (Win64) OpenSSL/1.1.1c PHP/7.3.11 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.41 (Win64) OpenSSL/1.1.1c PHP/7.3.11'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/xampp/htdocs/banglatourbd-dynamic-slider-ok/frontend/web/index.php'
+    'REMOTE_PORT' => '12379'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => 'r=site%2Flogin'
+    'REQUEST_URI' => '/banglatourbd-dynamic-slider-ok/frontend/web/index.php?r=site%2Flogin'
+    'SCRIPT_NAME' => '/banglatourbd-dynamic-slider-ok/frontend/web/index.php'
+    'PHP_SELF' => '/banglatourbd-dynamic-slider-ok/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1575195254.577
+    'REQUEST_TIME' => 1575195254
+]
+2019-12-01 11:14:29 [::1][-][jn3fplqssjsnr0tne8hji2eetn][error][yii\base\InvalidConfigException] yii\base\InvalidConfigException: The table does not exist: {{%user}} in C:\xampp\htdocs\banglatourbd-dynamic-slider-ok\vendor\yiisoft\yii2\db\ActiveRecord.php:438
+Stack trace:
+#0 C:\xampp\htdocs\banglatourbd-dynamic-slider-ok\vendor\yiisoft\yii2\db\ActiveRecord.php(262): yii\db\ActiveRecord::getTableSchema()
+#1 C:\xampp\htdocs\banglatourbd-dynamic-slider-ok\vendor\yiisoft\yii2\db\ActiveRecord.php(234): yii\db\ActiveRecord::filterValidColumnNames(Object(yii\db\Connection), Array)
+#2 C:\xampp\htdocs\banglatourbd-dynamic-slider-ok\vendor\yiisoft\yii2\db\ActiveRecord.php(191): yii\db\ActiveRecord::filterCondition(Array, Array)
+#3 C:\xampp\htdocs\banglatourbd-dynamic-slider-ok\vendor\yiisoft\yii2\db\BaseActiveRecord.php(112): yii\db\ActiveRecord::findByCondition(Array)
+#4 C:\xampp\htdocs\banglatourbd-dynamic-slider-ok\common\models\User.php(85): yii\db\BaseActiveRecord::findOne(Array)
+#5 C:\xampp\htdocs\banglatourbd-dynamic-slider-ok\common\models\LoginForm.php(73): common\models\User::findByUsername('user')
+#6 C:\xampp\htdocs\banglatourbd-dynamic-slider-ok\common\models\LoginForm.php(44): common\models\LoginForm->getUser()
+#7 [internal function]: common\models\LoginForm->validatePassword('password', NULL, Object(yii\validators\InlineValidator))
+#8 C:\xampp\htdocs\banglatourbd-dynamic-slider-ok\vendor\yiisoft\yii2\validators\InlineValidator.php(72): call_user_func(Array, 'password', NULL, Object(yii\validators\InlineValidator))
+#9 C:\xampp\htdocs\banglatourbd-dynamic-slider-ok\vendor\yiisoft\yii2\validators\Validator.php(257): yii\validators\InlineValidator->validateAttribute(Object(common\models\LoginForm), 'password')
+#10 C:\xampp\htdocs\banglatourbd-dynamic-slider-ok\vendor\yiisoft\yii2\base\Model.php(367): yii\validators\Validator->validateAttributes(Object(common\models\LoginForm), Array)
+#11 C:\xampp\htdocs\banglatourbd-dynamic-slider-ok\common\models\LoginForm.php(58): yii\base\Model->validate()
+#12 C:\xampp\htdocs\banglatourbd-dynamic-slider-ok\frontend\controllers\SiteController.php(96): common\models\LoginForm->login()
+#13 [internal function]: frontend\controllers\SiteController->actionLogin()
+#14 C:\xampp\htdocs\banglatourbd-dynamic-slider-ok\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#15 C:\xampp\htdocs\banglatourbd-dynamic-slider-ok\vendor\yiisoft\yii2\base\Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#16 C:\xampp\htdocs\banglatourbd-dynamic-slider-ok\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction('login', Array)
+#17 C:\xampp\htdocs\banglatourbd-dynamic-slider-ok\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('site/login', Array)
+#18 C:\xampp\htdocs\banglatourbd-dynamic-slider-ok\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#19 C:\xampp\htdocs\banglatourbd-dynamic-slider-ok\frontend\web\index.php(17): yii\base\Application->run()
+#20 {main}
+2019-12-01 11:14:29 [::1][-][jn3fplqssjsnr0tne8hji2eetn][info][application] $_GET = [
+    'r' => 'site/login'
+]
+
+$_POST = [
+    '_frontendCSRF' => '4-L3e9HAqwwYJLOk6JjPnsW0jCBkR4Theb3sAbArcgWR08ccpLTyNVId9_uZ_oem8efUFlQe5rA1kIB03Fg9Zw=='
+    'LoginForm' => [
+        'username' => 'user'
+        'password' => '123456'
+        'rememberMe' => '1'
+    ]
+    'login-button' => ''
+]
+
+$_FILES = []
+
+$_COOKIE = [
+    'advanced-backend' => 'uonsa23bs689uf3ngtfnoco69d'
+    '_csrf-backend' => 'fd2853b6157d35bcb02b8100adf0df0f925eb37052d4a84f4290de7624d3b741a:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"U-vgDkk5yaL1h5eF0MCHJ-yYDroh8qnd\";}'
+    'advanced-frontend' => 'mbar94pd2aqh0p3i6majkhtbma'
+    '_csrf-frontend' => '02bbe7bd21ba0a4a7df2c4332b17ab2a366f1f8660ac4722a65b19ce1c3dd078a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"qAyU6EyBw3cAzFnNSML3iMJlXuYYhT3J\";}'
+    'PHPFRONTSESSID' => 'jn3fplqssjsnr0tne8hji2eetn'
+    '_frontendCSRF' => '475bbd8be1e186d3bf89355f084e91687d306dc67c528a2c4c6b7816f9ff4fada:2:{i:0;s:13:\"_frontendCSRF\";i:1;s:32:\"r10gutY9J9D_qfH84SX60YbQL-lulsOb\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:70.0) Gecko/20100101 Firefox/70.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded'
+    'CONTENT_LENGTH' => '236'
+    'HTTP_ORIGIN' => 'http://localhost'
+    'HTTP_DNT' => '1'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_REFERER' => 'http://localhost/banglatourbd-dynamic-slider-ok/frontend/web/index.php?r=site%2Flogin'
+    'HTTP_COOKIE' => 'advanced-backend=uonsa23bs689uf3ngtfnoco69d; _csrf-backend=fd2853b6157d35bcb02b8100adf0df0f925eb37052d4a84f4290de7624d3b741a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22U-vgDkk5yaL1h5eF0MCHJ-yYDroh8qnd%22%3B%7D; advanced-frontend=mbar94pd2aqh0p3i6majkhtbma; _csrf-frontend=02bbe7bd21ba0a4a7df2c4332b17ab2a366f1f8660ac4722a65b19ce1c3dd078a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22qAyU6EyBw3cAzFnNSML3iMJlXuYYhT3J%22%3B%7D; PHPFRONTSESSID=jn3fplqssjsnr0tne8hji2eetn; _frontendCSRF=475bbd8be1e186d3bf89355f084e91687d306dc67c528a2c4c6b7816f9ff4fada%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_frontendCSRF%22%3Bi%3A1%3Bs%3A32%3A%22r10gutY9J9D_qfH84SX60YbQL-lulsOb%22%3B%7D'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;C:\\Program Files\\Git\\cmd;C:\\xampp\\php;C:\\composer;C:\\Users\\SHOHAN\\AppData\\Local\\Microsoft\\WindowsApps;;C:\\Program Files\\JetBrains\\PhpStorm 2019.2.5\\bin;;C:\\Users\\SHOHAN\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.41 (Win64) OpenSSL/1.1.1c PHP/7.3.11 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.41 (Win64) OpenSSL/1.1.1c PHP/7.3.11'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/xampp/htdocs/banglatourbd-dynamic-slider-ok/frontend/web/index.php'
+    'REMOTE_PORT' => '12383'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => 'r=site%2Flogin'
+    'REQUEST_URI' => '/banglatourbd-dynamic-slider-ok/frontend/web/index.php?r=site%2Flogin'
+    'SCRIPT_NAME' => '/banglatourbd-dynamic-slider-ok/frontend/web/index.php'
+    'PHP_SELF' => '/banglatourbd-dynamic-slider-ok/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1575195269.688
+    'REQUEST_TIME' => 1575195269
+]
+2019-12-01 11:53:31 [::1][-][lqskqko1oo069ktlbehifbh0cu][error][yii\db\Exception] PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'banglatourbddynamic.slider' doesn't exist in C:\xampp\htdocs\banglatourbd-dynamic-slider-ok\vendor\yiisoft\yii2\db\Command.php:1290
+Stack trace:
+#0 C:\xampp\htdocs\banglatourbd-dynamic-slider-ok\vendor\yiisoft\yii2\db\Command.php(1290): PDOStatement->execute()
+#1 C:\xampp\htdocs\banglatourbd-dynamic-slider-ok\vendor\yiisoft\yii2\db\Command.php(1158): yii\db\Command->internalExecute('SELECT * FROM `...')
+#2 C:\xampp\htdocs\banglatourbd-dynamic-slider-ok\vendor\yiisoft\yii2\db\Command.php(399): yii\db\Command->queryInternal('fetchAll', NULL)
+#3 C:\xampp\htdocs\banglatourbd-dynamic-slider-ok\vendor\yiisoft\yii2\db\Query.php(237): yii\db\Command->queryAll()
+#4 C:\xampp\htdocs\banglatourbd-dynamic-slider-ok\vendor\yiisoft\yii2\db\ActiveQuery.php(133): yii\db\Query->all(NULL)
+#5 C:\xampp\htdocs\banglatourbd-dynamic-slider-ok\backend\models\SliderQuery.php(23): yii\db\ActiveQuery->all(NULL)
+#6 C:\xampp\htdocs\banglatourbd-dynamic-slider-ok\frontend\controllers\SiteController.php(79): backend\models\SliderQuery->all()
+#7 [internal function]: frontend\controllers\SiteController->actionIndex()
+#8 C:\xampp\htdocs\banglatourbd-dynamic-slider-ok\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#9 C:\xampp\htdocs\banglatourbd-dynamic-slider-ok\vendor\yiisoft\yii2\base\Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#10 C:\xampp\htdocs\banglatourbd-dynamic-slider-ok\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction('', Array)
+#11 C:\xampp\htdocs\banglatourbd-dynamic-slider-ok\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('', Array)
+#12 C:\xampp\htdocs\banglatourbd-dynamic-slider-ok\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#13 C:\xampp\htdocs\banglatourbd-dynamic-slider-ok\frontend\web\index.php(17): yii\base\Application->run()
+#14 {main}
+
+Next yii\db\Exception: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'banglatourbddynamic.slider' doesn't exist
+The SQL being executed was: SELECT * FROM `slider` WHERE `status`=1 in C:\xampp\htdocs\banglatourbd-dynamic-slider-ok\vendor\yiisoft\yii2\db\Schema.php:674
+Stack trace:
+#0 C:\xampp\htdocs\banglatourbd-dynamic-slider-ok\vendor\yiisoft\yii2\db\Command.php(1295): yii\db\Schema->convertException(Object(PDOException), 'SELECT * FROM `...')
+#1 C:\xampp\htdocs\banglatourbd-dynamic-slider-ok\vendor\yiisoft\yii2\db\Command.php(1158): yii\db\Command->internalExecute('SELECT * FROM `...')
+#2 C:\xampp\htdocs\banglatourbd-dynamic-slider-ok\vendor\yiisoft\yii2\db\Command.php(399): yii\db\Command->queryInternal('fetchAll', NULL)
+#3 C:\xampp\htdocs\banglatourbd-dynamic-slider-ok\vendor\yiisoft\yii2\db\Query.php(237): yii\db\Command->queryAll()
+#4 C:\xampp\htdocs\banglatourbd-dynamic-slider-ok\vendor\yiisoft\yii2\db\ActiveQuery.php(133): yii\db\Query->all(NULL)
+#5 C:\xampp\htdocs\banglatourbd-dynamic-slider-ok\backend\models\SliderQuery.php(23): yii\db\ActiveQuery->all(NULL)
+#6 C:\xampp\htdocs\banglatourbd-dynamic-slider-ok\frontend\controllers\SiteController.php(79): backend\models\SliderQuery->all()
+#7 [internal function]: frontend\controllers\SiteController->actionIndex()
+#8 C:\xampp\htdocs\banglatourbd-dynamic-slider-ok\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#9 C:\xampp\htdocs\banglatourbd-dynamic-slider-ok\vendor\yiisoft\yii2\base\Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#10 C:\xampp\htdocs\banglatourbd-dynamic-slider-ok\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction('', Array)
+#11 C:\xampp\htdocs\banglatourbd-dynamic-slider-ok\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('', Array)
+#12 C:\xampp\htdocs\banglatourbd-dynamic-slider-ok\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#13 C:\xampp\htdocs\banglatourbd-dynamic-slider-ok\frontend\web\index.php(17): yii\base\Application->run()
+#14 {main}
+Additional Information:
+Array
+(
+    [0] => 42S02
+    [1] => 1146
+    [2] => Table 'banglatourbddynamic.slider' doesn't exist
+)
+
+2019-12-01 11:53:31 [::1][-][lqskqko1oo069ktlbehifbh0cu][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'advanced-backend' => 'uonsa23bs689uf3ngtfnoco69d'
+    '_csrf-backend' => 'fd2853b6157d35bcb02b8100adf0df0f925eb37052d4a84f4290de7624d3b741a:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"U-vgDkk5yaL1h5eF0MCHJ-yYDroh8qnd\";}'
+    'advanced-frontend' => 'mbar94pd2aqh0p3i6majkhtbma'
+    '_csrf-frontend' => '02bbe7bd21ba0a4a7df2c4332b17ab2a366f1f8660ac4722a65b19ce1c3dd078a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"qAyU6EyBw3cAzFnNSML3iMJlXuYYhT3J\";}'
+    'PHPFRONTSESSID' => 'lqskqko1oo069ktlbehifbh0cu'
+    '_frontendCSRF' => '5096a4b88a48f9d8a9f10770a40492ab7aa317a62af3bcfd7d4d5826f5bf1119a:2:{i:0;s:13:\"_frontendCSRF\";i:1;s:32:\"FVFM76jFHdhUdTts3BzAjsckNAtGyM-T\";}'
+    'PHPBACKSESSID' => 'bqvlbm5afa5i1bt03rnosmfvq4'
+    '_backendCSRF' => 'b917ed39db14e6d9a01157ee65c6c8ef87023d55da91782b0d4e95f0fe6a5e01a:2:{i:0;s:12:\"_backendCSRF\";i:1;s:32:\"fx6KkvY__LDdewyTvwHJM3GqMb3hZYLy\";}'
+]
+
+$_SESSION = [
+    '__flash' => [
+        'success' => -1
+    ]
+    'success' => 'Thank you for registration. Please check your inbox for verification email.'
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:70.0) Gecko/20100101 Firefox/70.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://localhost/banglatourbd-dynamic-slider-ok/frontend/web/index.php?r=site%2Fsignup'
+    'HTTP_DNT' => '1'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_COOKIE' => 'advanced-backend=uonsa23bs689uf3ngtfnoco69d; _csrf-backend=fd2853b6157d35bcb02b8100adf0df0f925eb37052d4a84f4290de7624d3b741a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22U-vgDkk5yaL1h5eF0MCHJ-yYDroh8qnd%22%3B%7D; advanced-frontend=mbar94pd2aqh0p3i6majkhtbma; _csrf-frontend=02bbe7bd21ba0a4a7df2c4332b17ab2a366f1f8660ac4722a65b19ce1c3dd078a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22qAyU6EyBw3cAzFnNSML3iMJlXuYYhT3J%22%3B%7D; PHPFRONTSESSID=lqskqko1oo069ktlbehifbh0cu; _frontendCSRF=5096a4b88a48f9d8a9f10770a40492ab7aa317a62af3bcfd7d4d5826f5bf1119a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_frontendCSRF%22%3Bi%3A1%3Bs%3A32%3A%22FVFM76jFHdhUdTts3BzAjsckNAtGyM-T%22%3B%7D; PHPBACKSESSID=bqvlbm5afa5i1bt03rnosmfvq4; _backendCSRF=b917ed39db14e6d9a01157ee65c6c8ef87023d55da91782b0d4e95f0fe6a5e01a%3A2%3A%7Bi%3A0%3Bs%3A12%3A%22_backendCSRF%22%3Bi%3A1%3Bs%3A32%3A%22fx6KkvY__LDdewyTvwHJM3GqMb3hZYLy%22%3B%7D'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;C:\\Program Files\\Git\\cmd;C:\\xampp\\php;C:\\composer;C:\\Users\\SHOHAN\\AppData\\Local\\Microsoft\\WindowsApps;;C:\\Program Files\\JetBrains\\PhpStorm 2019.2.5\\bin;;C:\\Users\\SHOHAN\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.41 (Win64) OpenSSL/1.1.1c PHP/7.3.11 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.41 (Win64) OpenSSL/1.1.1c PHP/7.3.11'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/xampp/htdocs/banglatourbd-dynamic-slider-ok/frontend/web/index.php'
+    'REMOTE_PORT' => '12984'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/banglatourbd-dynamic-slider-ok/frontend/web/index.php'
+    'SCRIPT_NAME' => '/banglatourbd-dynamic-slider-ok/frontend/web/index.php'
+    'PHP_SELF' => '/banglatourbd-dynamic-slider-ok/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1575197611.697
+    'REQUEST_TIME' => 1575197611
+]
+2019-12-01 11:54:20 [::1][-][lqskqko1oo069ktlbehifbh0cu][error][yii\db\Exception] PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'banglatourbddynamic.slider' doesn't exist in C:\xampp\htdocs\banglatourbd-dynamic-slider-ok\vendor\yiisoft\yii2\db\Command.php:1290
+Stack trace:
+#0 C:\xampp\htdocs\banglatourbd-dynamic-slider-ok\vendor\yiisoft\yii2\db\Command.php(1290): PDOStatement->execute()
+#1 C:\xampp\htdocs\banglatourbd-dynamic-slider-ok\vendor\yiisoft\yii2\db\Command.php(1158): yii\db\Command->internalExecute('SELECT * FROM `...')
+#2 C:\xampp\htdocs\banglatourbd-dynamic-slider-ok\vendor\yiisoft\yii2\db\Command.php(399): yii\db\Command->queryInternal('fetchAll', NULL)
+#3 C:\xampp\htdocs\banglatourbd-dynamic-slider-ok\vendor\yiisoft\yii2\db\Query.php(237): yii\db\Command->queryAll()
+#4 C:\xampp\htdocs\banglatourbd-dynamic-slider-ok\vendor\yiisoft\yii2\db\ActiveQuery.php(133): yii\db\Query->all(NULL)
+#5 C:\xampp\htdocs\banglatourbd-dynamic-slider-ok\backend\models\SliderQuery.php(23): yii\db\ActiveQuery->all(NULL)
+#6 C:\xampp\htdocs\banglatourbd-dynamic-slider-ok\frontend\controllers\SiteController.php(79): backend\models\SliderQuery->all()
+#7 [internal function]: frontend\controllers\SiteController->actionIndex()
+#8 C:\xampp\htdocs\banglatourbd-dynamic-slider-ok\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#9 C:\xampp\htdocs\banglatourbd-dynamic-slider-ok\vendor\yiisoft\yii2\base\Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#10 C:\xampp\htdocs\banglatourbd-dynamic-slider-ok\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction('index', Array)
+#11 C:\xampp\htdocs\banglatourbd-dynamic-slider-ok\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('site/index', Array)
+#12 C:\xampp\htdocs\banglatourbd-dynamic-slider-ok\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#13 C:\xampp\htdocs\banglatourbd-dynamic-slider-ok\frontend\web\index.php(17): yii\base\Application->run()
+#14 {main}
+
+Next yii\db\Exception: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'banglatourbddynamic.slider' doesn't exist
+The SQL being executed was: SELECT * FROM `slider` WHERE `status`=1 in C:\xampp\htdocs\banglatourbd-dynamic-slider-ok\vendor\yiisoft\yii2\db\Schema.php:674
+Stack trace:
+#0 C:\xampp\htdocs\banglatourbd-dynamic-slider-ok\vendor\yiisoft\yii2\db\Command.php(1295): yii\db\Schema->convertException(Object(PDOException), 'SELECT * FROM `...')
+#1 C:\xampp\htdocs\banglatourbd-dynamic-slider-ok\vendor\yiisoft\yii2\db\Command.php(1158): yii\db\Command->internalExecute('SELECT * FROM `...')
+#2 C:\xampp\htdocs\banglatourbd-dynamic-slider-ok\vendor\yiisoft\yii2\db\Command.php(399): yii\db\Command->queryInternal('fetchAll', NULL)
+#3 C:\xampp\htdocs\banglatourbd-dynamic-slider-ok\vendor\yiisoft\yii2\db\Query.php(237): yii\db\Command->queryAll()
+#4 C:\xampp\htdocs\banglatourbd-dynamic-slider-ok\vendor\yiisoft\yii2\db\ActiveQuery.php(133): yii\db\Query->all(NULL)
+#5 C:\xampp\htdocs\banglatourbd-dynamic-slider-ok\backend\models\SliderQuery.php(23): yii\db\ActiveQuery->all(NULL)
+#6 C:\xampp\htdocs\banglatourbd-dynamic-slider-ok\frontend\controllers\SiteController.php(79): backend\models\SliderQuery->all()
+#7 [internal function]: frontend\controllers\SiteController->actionIndex()
+#8 C:\xampp\htdocs\banglatourbd-dynamic-slider-ok\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#9 C:\xampp\htdocs\banglatourbd-dynamic-slider-ok\vendor\yiisoft\yii2\base\Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#10 C:\xampp\htdocs\banglatourbd-dynamic-slider-ok\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction('index', Array)
+#11 C:\xampp\htdocs\banglatourbd-dynamic-slider-ok\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('site/index', Array)
+#12 C:\xampp\htdocs\banglatourbd-dynamic-slider-ok\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#13 C:\xampp\htdocs\banglatourbd-dynamic-slider-ok\frontend\web\index.php(17): yii\base\Application->run()
+#14 {main}
+Additional Information:
+Array
+(
+    [0] => 42S02
+    [1] => 1146
+    [2] => Table 'banglatourbddynamic.slider' doesn't exist
+)
+
+2019-12-01 11:54:20 [::1][-][lqskqko1oo069ktlbehifbh0cu][info][application] $_GET = [
+    'r' => 'site/index'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'advanced-backend' => 'uonsa23bs689uf3ngtfnoco69d'
+    '_csrf-backend' => 'fd2853b6157d35bcb02b8100adf0df0f925eb37052d4a84f4290de7624d3b741a:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"U-vgDkk5yaL1h5eF0MCHJ-yYDroh8qnd\";}'
+    'advanced-frontend' => 'mbar94pd2aqh0p3i6majkhtbma'
+    '_csrf-frontend' => '02bbe7bd21ba0a4a7df2c4332b17ab2a366f1f8660ac4722a65b19ce1c3dd078a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"qAyU6EyBw3cAzFnNSML3iMJlXuYYhT3J\";}'
+    'PHPFRONTSESSID' => 'lqskqko1oo069ktlbehifbh0cu'
+    '_frontendCSRF' => '5096a4b88a48f9d8a9f10770a40492ab7aa317a62af3bcfd7d4d5826f5bf1119a:2:{i:0;s:13:\"_frontendCSRF\";i:1;s:32:\"FVFM76jFHdhUdTts3BzAjsckNAtGyM-T\";}'
+    'PHPBACKSESSID' => 'bqvlbm5afa5i1bt03rnosmfvq4'
+    '_backendCSRF' => 'b917ed39db14e6d9a01157ee65c6c8ef87023d55da91782b0d4e95f0fe6a5e01a:2:{i:0;s:12:\"_backendCSRF\";i:1;s:32:\"fx6KkvY__LDdewyTvwHJM3GqMb3hZYLy\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__captcha/site/captcha' => 'iuzeoan'
+    '__captcha/site/captchacount' => 1
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:70.0) Gecko/20100101 Firefox/70.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_DNT' => '1'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_REFERER' => 'http://localhost/banglatourbd-dynamic-slider-ok/frontend/web/index.php?r=site%2Flogin'
+    'HTTP_COOKIE' => 'advanced-backend=uonsa23bs689uf3ngtfnoco69d; _csrf-backend=fd2853b6157d35bcb02b8100adf0df0f925eb37052d4a84f4290de7624d3b741a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22U-vgDkk5yaL1h5eF0MCHJ-yYDroh8qnd%22%3B%7D; advanced-frontend=mbar94pd2aqh0p3i6majkhtbma; _csrf-frontend=02bbe7bd21ba0a4a7df2c4332b17ab2a366f1f8660ac4722a65b19ce1c3dd078a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22qAyU6EyBw3cAzFnNSML3iMJlXuYYhT3J%22%3B%7D; PHPFRONTSESSID=lqskqko1oo069ktlbehifbh0cu; _frontendCSRF=5096a4b88a48f9d8a9f10770a40492ab7aa317a62af3bcfd7d4d5826f5bf1119a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_frontendCSRF%22%3Bi%3A1%3Bs%3A32%3A%22FVFM76jFHdhUdTts3BzAjsckNAtGyM-T%22%3B%7D; PHPBACKSESSID=bqvlbm5afa5i1bt03rnosmfvq4; _backendCSRF=b917ed39db14e6d9a01157ee65c6c8ef87023d55da91782b0d4e95f0fe6a5e01a%3A2%3A%7Bi%3A0%3Bs%3A12%3A%22_backendCSRF%22%3Bi%3A1%3Bs%3A32%3A%22fx6KkvY__LDdewyTvwHJM3GqMb3hZYLy%22%3B%7D'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;C:\\Program Files\\Git\\cmd;C:\\xampp\\php;C:\\composer;C:\\Users\\SHOHAN\\AppData\\Local\\Microsoft\\WindowsApps;;C:\\Program Files\\JetBrains\\PhpStorm 2019.2.5\\bin;;C:\\Users\\SHOHAN\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.41 (Win64) OpenSSL/1.1.1c PHP/7.3.11 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.41 (Win64) OpenSSL/1.1.1c PHP/7.3.11'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/xampp/htdocs/banglatourbd-dynamic-slider-ok/frontend/web/index.php'
+    'REMOTE_PORT' => '13013'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=site%2Findex'
+    'REQUEST_URI' => '/banglatourbd-dynamic-slider-ok/frontend/web/index.php?r=site%2Findex'
+    'SCRIPT_NAME' => '/banglatourbd-dynamic-slider-ok/frontend/web/index.php'
+    'PHP_SELF' => '/banglatourbd-dynamic-slider-ok/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1575197660.133
+    'REQUEST_TIME' => 1575197660
+]
+2019-12-01 11:54:45 [::1][1][gc6psqjh2nehf8jhcue5c5jeej][error][yii\db\Exception] PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'banglatourbddynamic.slider' doesn't exist in C:\xampp\htdocs\banglatourbd-dynamic-slider-ok\vendor\yiisoft\yii2\db\Command.php:1290
+Stack trace:
+#0 C:\xampp\htdocs\banglatourbd-dynamic-slider-ok\vendor\yiisoft\yii2\db\Command.php(1290): PDOStatement->execute()
+#1 C:\xampp\htdocs\banglatourbd-dynamic-slider-ok\vendor\yiisoft\yii2\db\Command.php(1158): yii\db\Command->internalExecute('SELECT * FROM `...')
+#2 C:\xampp\htdocs\banglatourbd-dynamic-slider-ok\vendor\yiisoft\yii2\db\Command.php(399): yii\db\Command->queryInternal('fetchAll', NULL)
+#3 C:\xampp\htdocs\banglatourbd-dynamic-slider-ok\vendor\yiisoft\yii2\db\Query.php(237): yii\db\Command->queryAll()
+#4 C:\xampp\htdocs\banglatourbd-dynamic-slider-ok\vendor\yiisoft\yii2\db\ActiveQuery.php(133): yii\db\Query->all(NULL)
+#5 C:\xampp\htdocs\banglatourbd-dynamic-slider-ok\backend\models\SliderQuery.php(23): yii\db\ActiveQuery->all(NULL)
+#6 C:\xampp\htdocs\banglatourbd-dynamic-slider-ok\frontend\controllers\SiteController.php(79): backend\models\SliderQuery->all()
+#7 [internal function]: frontend\controllers\SiteController->actionIndex()
+#8 C:\xampp\htdocs\banglatourbd-dynamic-slider-ok\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#9 C:\xampp\htdocs\banglatourbd-dynamic-slider-ok\vendor\yiisoft\yii2\base\Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#10 C:\xampp\htdocs\banglatourbd-dynamic-slider-ok\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction('', Array)
+#11 C:\xampp\htdocs\banglatourbd-dynamic-slider-ok\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('', Array)
+#12 C:\xampp\htdocs\banglatourbd-dynamic-slider-ok\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#13 C:\xampp\htdocs\banglatourbd-dynamic-slider-ok\frontend\web\index.php(17): yii\base\Application->run()
+#14 {main}
+
+Next yii\db\Exception: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'banglatourbddynamic.slider' doesn't exist
+The SQL being executed was: SELECT * FROM `slider` WHERE `status`=1 in C:\xampp\htdocs\banglatourbd-dynamic-slider-ok\vendor\yiisoft\yii2\db\Schema.php:674
+Stack trace:
+#0 C:\xampp\htdocs\banglatourbd-dynamic-slider-ok\vendor\yiisoft\yii2\db\Command.php(1295): yii\db\Schema->convertException(Object(PDOException), 'SELECT * FROM `...')
+#1 C:\xampp\htdocs\banglatourbd-dynamic-slider-ok\vendor\yiisoft\yii2\db\Command.php(1158): yii\db\Command->internalExecute('SELECT * FROM `...')
+#2 C:\xampp\htdocs\banglatourbd-dynamic-slider-ok\vendor\yiisoft\yii2\db\Command.php(399): yii\db\Command->queryInternal('fetchAll', NULL)
+#3 C:\xampp\htdocs\banglatourbd-dynamic-slider-ok\vendor\yiisoft\yii2\db\Query.php(237): yii\db\Command->queryAll()
+#4 C:\xampp\htdocs\banglatourbd-dynamic-slider-ok\vendor\yiisoft\yii2\db\ActiveQuery.php(133): yii\db\Query->all(NULL)
+#5 C:\xampp\htdocs\banglatourbd-dynamic-slider-ok\backend\models\SliderQuery.php(23): yii\db\ActiveQuery->all(NULL)
+#6 C:\xampp\htdocs\banglatourbd-dynamic-slider-ok\frontend\controllers\SiteController.php(79): backend\models\SliderQuery->all()
+#7 [internal function]: frontend\controllers\SiteController->actionIndex()
+#8 C:\xampp\htdocs\banglatourbd-dynamic-slider-ok\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#9 C:\xampp\htdocs\banglatourbd-dynamic-slider-ok\vendor\yiisoft\yii2\base\Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#10 C:\xampp\htdocs\banglatourbd-dynamic-slider-ok\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction('', Array)
+#11 C:\xampp\htdocs\banglatourbd-dynamic-slider-ok\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('', Array)
+#12 C:\xampp\htdocs\banglatourbd-dynamic-slider-ok\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#13 C:\xampp\htdocs\banglatourbd-dynamic-slider-ok\frontend\web\index.php(17): yii\base\Application->run()
+#14 {main}
+Additional Information:
+Array
+(
+    [0] => 42S02
+    [1] => 1146
+    [2] => Table 'banglatourbddynamic.slider' doesn't exist
+)
+
+2019-12-01 11:54:45 [::1][1][gc6psqjh2nehf8jhcue5c5jeej][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'advanced-backend' => 'uonsa23bs689uf3ngtfnoco69d'
+    '_csrf-backend' => 'fd2853b6157d35bcb02b8100adf0df0f925eb37052d4a84f4290de7624d3b741a:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"U-vgDkk5yaL1h5eF0MCHJ-yYDroh8qnd\";}'
+    'advanced-frontend' => 'mbar94pd2aqh0p3i6majkhtbma'
+    '_csrf-frontend' => '02bbe7bd21ba0a4a7df2c4332b17ab2a366f1f8660ac4722a65b19ce1c3dd078a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"qAyU6EyBw3cAzFnNSML3iMJlXuYYhT3J\";}'
+    'PHPFRONTSESSID' => 'gc6psqjh2nehf8jhcue5c5jeej'
+    '_frontendCSRF' => '267d7057e6542b9494141c6018a7e1f86f6963b5d790fd86528804fedfc4827ea:2:{i:0;s:13:\"_frontendCSRF\";i:1;s:32:\"IN5CdujHrwgr_V7ygj369DGu0e8tIYG5\";}'
+    'PHPBACKSESSID' => 'bqvlbm5afa5i1bt03rnosmfvq4'
+    '_backendCSRF' => 'b917ed39db14e6d9a01157ee65c6c8ef87023d55da91782b0d4e95f0fe6a5e01a:2:{i:0;s:12:\"_backendCSRF\";i:1;s:32:\"fx6KkvY__LDdewyTvwHJM3GqMb3hZYLy\";}'
+    '_identity-frontend' => '90e240a172fdbcb736ee8c2cd84698609585e5cad2301b1a5a2d50cfd3584ffaa:2:{i:0;s:18:\"_identity-frontend\";i:1;s:46:\"[1,\"XuBYtHFVsxLC12UGykSj1L3Jd6USBzl5\",2592000]\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__captcha/site/captcha' => 'iuzeoan'
+    '__captcha/site/captchacount' => 1
+    '__id' => 1
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:70.0) Gecko/20100101 Firefox/70.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://localhost/banglatourbd-dynamic-slider-ok/frontend/web/index.php?r=site%2Flogin'
+    'HTTP_DNT' => '1'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_COOKIE' => 'advanced-backend=uonsa23bs689uf3ngtfnoco69d; _csrf-backend=fd2853b6157d35bcb02b8100adf0df0f925eb37052d4a84f4290de7624d3b741a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22U-vgDkk5yaL1h5eF0MCHJ-yYDroh8qnd%22%3B%7D; advanced-frontend=mbar94pd2aqh0p3i6majkhtbma; _csrf-frontend=02bbe7bd21ba0a4a7df2c4332b17ab2a366f1f8660ac4722a65b19ce1c3dd078a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22qAyU6EyBw3cAzFnNSML3iMJlXuYYhT3J%22%3B%7D; PHPFRONTSESSID=gc6psqjh2nehf8jhcue5c5jeej; _frontendCSRF=267d7057e6542b9494141c6018a7e1f86f6963b5d790fd86528804fedfc4827ea%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_frontendCSRF%22%3Bi%3A1%3Bs%3A32%3A%22IN5CdujHrwgr_V7ygj369DGu0e8tIYG5%22%3B%7D; PHPBACKSESSID=bqvlbm5afa5i1bt03rnosmfvq4; _backendCSRF=b917ed39db14e6d9a01157ee65c6c8ef87023d55da91782b0d4e95f0fe6a5e01a%3A2%3A%7Bi%3A0%3Bs%3A12%3A%22_backendCSRF%22%3Bi%3A1%3Bs%3A32%3A%22fx6KkvY__LDdewyTvwHJM3GqMb3hZYLy%22%3B%7D; _identity-frontend=90e240a172fdbcb736ee8c2cd84698609585e5cad2301b1a5a2d50cfd3584ffaa%3A2%3A%7Bi%3A0%3Bs%3A18%3A%22_identity-frontend%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22XuBYtHFVsxLC12UGykSj1L3Jd6USBzl5%22%2C2592000%5D%22%3B%7D'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;C:\\Program Files\\Git\\cmd;C:\\xampp\\php;C:\\composer;C:\\Users\\SHOHAN\\AppData\\Local\\Microsoft\\WindowsApps;;C:\\Program Files\\JetBrains\\PhpStorm 2019.2.5\\bin;;C:\\Users\\SHOHAN\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.41 (Win64) OpenSSL/1.1.1c PHP/7.3.11 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.41 (Win64) OpenSSL/1.1.1c PHP/7.3.11'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/xampp/htdocs/banglatourbd-dynamic-slider-ok/frontend/web/index.php'
+    'REMOTE_PORT' => '13026'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/banglatourbd-dynamic-slider-ok/frontend/web/index.php'
+    'SCRIPT_NAME' => '/banglatourbd-dynamic-slider-ok/frontend/web/index.php'
+    'PHP_SELF' => '/banglatourbd-dynamic-slider-ok/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1575197685.383
+    'REQUEST_TIME' => 1575197685
+]
+2019-12-01 11:54:53 [::1][1][gc6psqjh2nehf8jhcue5c5jeej][error][yii\db\Exception] PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'banglatourbddynamic.slider' doesn't exist in C:\xampp\htdocs\banglatourbd-dynamic-slider-ok\vendor\yiisoft\yii2\db\Command.php:1290
+Stack trace:
+#0 C:\xampp\htdocs\banglatourbd-dynamic-slider-ok\vendor\yiisoft\yii2\db\Command.php(1290): PDOStatement->execute()
+#1 C:\xampp\htdocs\banglatourbd-dynamic-slider-ok\vendor\yiisoft\yii2\db\Command.php(1158): yii\db\Command->internalExecute('SELECT * FROM `...')
+#2 C:\xampp\htdocs\banglatourbd-dynamic-slider-ok\vendor\yiisoft\yii2\db\Command.php(399): yii\db\Command->queryInternal('fetchAll', NULL)
+#3 C:\xampp\htdocs\banglatourbd-dynamic-slider-ok\vendor\yiisoft\yii2\db\Query.php(237): yii\db\Command->queryAll()
+#4 C:\xampp\htdocs\banglatourbd-dynamic-slider-ok\vendor\yiisoft\yii2\db\ActiveQuery.php(133): yii\db\Query->all(NULL)
+#5 C:\xampp\htdocs\banglatourbd-dynamic-slider-ok\backend\models\SliderQuery.php(23): yii\db\ActiveQuery->all(NULL)
+#6 C:\xampp\htdocs\banglatourbd-dynamic-slider-ok\frontend\controllers\SiteController.php(79): backend\models\SliderQuery->all()
+#7 [internal function]: frontend\controllers\SiteController->actionIndex()
+#8 C:\xampp\htdocs\banglatourbd-dynamic-slider-ok\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#9 C:\xampp\htdocs\banglatourbd-dynamic-slider-ok\vendor\yiisoft\yii2\base\Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#10 C:\xampp\htdocs\banglatourbd-dynamic-slider-ok\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction('', Array)
+#11 C:\xampp\htdocs\banglatourbd-dynamic-slider-ok\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('', Array)
+#12 C:\xampp\htdocs\banglatourbd-dynamic-slider-ok\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#13 C:\xampp\htdocs\banglatourbd-dynamic-slider-ok\frontend\web\index.php(17): yii\base\Application->run()
+#14 {main}
+
+Next yii\db\Exception: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'banglatourbddynamic.slider' doesn't exist
+The SQL being executed was: SELECT * FROM `slider` WHERE `status`=1 in C:\xampp\htdocs\banglatourbd-dynamic-slider-ok\vendor\yiisoft\yii2\db\Schema.php:674
+Stack trace:
+#0 C:\xampp\htdocs\banglatourbd-dynamic-slider-ok\vendor\yiisoft\yii2\db\Command.php(1295): yii\db\Schema->convertException(Object(PDOException), 'SELECT * FROM `...')
+#1 C:\xampp\htdocs\banglatourbd-dynamic-slider-ok\vendor\yiisoft\yii2\db\Command.php(1158): yii\db\Command->internalExecute('SELECT * FROM `...')
+#2 C:\xampp\htdocs\banglatourbd-dynamic-slider-ok\vendor\yiisoft\yii2\db\Command.php(399): yii\db\Command->queryInternal('fetchAll', NULL)
+#3 C:\xampp\htdocs\banglatourbd-dynamic-slider-ok\vendor\yiisoft\yii2\db\Query.php(237): yii\db\Command->queryAll()
+#4 C:\xampp\htdocs\banglatourbd-dynamic-slider-ok\vendor\yiisoft\yii2\db\ActiveQuery.php(133): yii\db\Query->all(NULL)
+#5 C:\xampp\htdocs\banglatourbd-dynamic-slider-ok\backend\models\SliderQuery.php(23): yii\db\ActiveQuery->all(NULL)
+#6 C:\xampp\htdocs\banglatourbd-dynamic-slider-ok\frontend\controllers\SiteController.php(79): backend\models\SliderQuery->all()
+#7 [internal function]: frontend\controllers\SiteController->actionIndex()
+#8 C:\xampp\htdocs\banglatourbd-dynamic-slider-ok\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#9 C:\xampp\htdocs\banglatourbd-dynamic-slider-ok\vendor\yiisoft\yii2\base\Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#10 C:\xampp\htdocs\banglatourbd-dynamic-slider-ok\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction('', Array)
+#11 C:\xampp\htdocs\banglatourbd-dynamic-slider-ok\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('', Array)
+#12 C:\xampp\htdocs\banglatourbd-dynamic-slider-ok\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#13 C:\xampp\htdocs\banglatourbd-dynamic-slider-ok\frontend\web\index.php(17): yii\base\Application->run()
+#14 {main}
+Additional Information:
+Array
+(
+    [0] => 42S02
+    [1] => 1146
+    [2] => Table 'banglatourbddynamic.slider' doesn't exist
+)
+
+2019-12-01 11:54:53 [::1][1][gc6psqjh2nehf8jhcue5c5jeej][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'advanced-backend' => 'uonsa23bs689uf3ngtfnoco69d'
+    '_csrf-backend' => 'fd2853b6157d35bcb02b8100adf0df0f925eb37052d4a84f4290de7624d3b741a:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"U-vgDkk5yaL1h5eF0MCHJ-yYDroh8qnd\";}'
+    'advanced-frontend' => 'mbar94pd2aqh0p3i6majkhtbma'
+    '_csrf-frontend' => '02bbe7bd21ba0a4a7df2c4332b17ab2a366f1f8660ac4722a65b19ce1c3dd078a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"qAyU6EyBw3cAzFnNSML3iMJlXuYYhT3J\";}'
+    'PHPFRONTSESSID' => 'gc6psqjh2nehf8jhcue5c5jeej'
+    '_frontendCSRF' => '267d7057e6542b9494141c6018a7e1f86f6963b5d790fd86528804fedfc4827ea:2:{i:0;s:13:\"_frontendCSRF\";i:1;s:32:\"IN5CdujHrwgr_V7ygj369DGu0e8tIYG5\";}'
+    'PHPBACKSESSID' => 'bqvlbm5afa5i1bt03rnosmfvq4'
+    '_backendCSRF' => 'b917ed39db14e6d9a01157ee65c6c8ef87023d55da91782b0d4e95f0fe6a5e01a:2:{i:0;s:12:\"_backendCSRF\";i:1;s:32:\"fx6KkvY__LDdewyTvwHJM3GqMb3hZYLy\";}'
+    '_identity-frontend' => '90e240a172fdbcb736ee8c2cd84698609585e5cad2301b1a5a2d50cfd3584ffaa:2:{i:0;s:18:\"_identity-frontend\";i:1;s:46:\"[1,\"XuBYtHFVsxLC12UGykSj1L3Jd6USBzl5\",2592000]\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__captcha/site/captcha' => 'iuzeoan'
+    '__captcha/site/captchacount' => 1
+    '__id' => 1
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:70.0) Gecko/20100101 Firefox/70.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://localhost/banglatourbd-dynamic-slider-ok/frontend/web/index.php?r=site%2Flogin'
+    'HTTP_DNT' => '1'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_COOKIE' => 'advanced-backend=uonsa23bs689uf3ngtfnoco69d; _csrf-backend=fd2853b6157d35bcb02b8100adf0df0f925eb37052d4a84f4290de7624d3b741a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22U-vgDkk5yaL1h5eF0MCHJ-yYDroh8qnd%22%3B%7D; advanced-frontend=mbar94pd2aqh0p3i6majkhtbma; _csrf-frontend=02bbe7bd21ba0a4a7df2c4332b17ab2a366f1f8660ac4722a65b19ce1c3dd078a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22qAyU6EyBw3cAzFnNSML3iMJlXuYYhT3J%22%3B%7D; PHPFRONTSESSID=gc6psqjh2nehf8jhcue5c5jeej; _frontendCSRF=267d7057e6542b9494141c6018a7e1f86f6963b5d790fd86528804fedfc4827ea%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_frontendCSRF%22%3Bi%3A1%3Bs%3A32%3A%22IN5CdujHrwgr_V7ygj369DGu0e8tIYG5%22%3B%7D; PHPBACKSESSID=bqvlbm5afa5i1bt03rnosmfvq4; _backendCSRF=b917ed39db14e6d9a01157ee65c6c8ef87023d55da91782b0d4e95f0fe6a5e01a%3A2%3A%7Bi%3A0%3Bs%3A12%3A%22_backendCSRF%22%3Bi%3A1%3Bs%3A32%3A%22fx6KkvY__LDdewyTvwHJM3GqMb3hZYLy%22%3B%7D; _identity-frontend=90e240a172fdbcb736ee8c2cd84698609585e5cad2301b1a5a2d50cfd3584ffaa%3A2%3A%7Bi%3A0%3Bs%3A18%3A%22_identity-frontend%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22XuBYtHFVsxLC12UGykSj1L3Jd6USBzl5%22%2C2592000%5D%22%3B%7D'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;C:\\Program Files\\Git\\cmd;C:\\xampp\\php;C:\\composer;C:\\Users\\SHOHAN\\AppData\\Local\\Microsoft\\WindowsApps;;C:\\Program Files\\JetBrains\\PhpStorm 2019.2.5\\bin;;C:\\Users\\SHOHAN\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.41 (Win64) OpenSSL/1.1.1c PHP/7.3.11 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.41 (Win64) OpenSSL/1.1.1c PHP/7.3.11'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/xampp/htdocs/banglatourbd-dynamic-slider-ok/frontend/web/index.php'
+    'REMOTE_PORT' => '13033'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/banglatourbd-dynamic-slider-ok/frontend/web/index.php'
+    'SCRIPT_NAME' => '/banglatourbd-dynamic-slider-ok/frontend/web/index.php'
+    'PHP_SELF' => '/banglatourbd-dynamic-slider-ok/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1575197693.28
+    'REQUEST_TIME' => 1575197693
+]
+2019-12-01 18:07:47 [127.0.0.1][-][phh71loqgl9n0uh8pu8pgle2qr][error][yii\base\InvalidArgumentException] yii\base\InvalidArgumentException: Invalid path alias: @webuploads/slider/image-43-6715.jpg in C:\xampp\htdocs\banglatourbd-dynamic-slider-ok\vendor\yiisoft\yii2\BaseYii.php:154
+Stack trace:
+#0 C:\xampp\htdocs\banglatourbd-dynamic-slider-ok\vendor\yiisoft\yii2\helpers\BaseUrl.php(217): yii\BaseYii::getAlias('@webuploads/sli...')
+#1 C:\xampp\htdocs\banglatourbd-dynamic-slider-ok\frontend\views\site\index.php(20): yii\helpers\BaseUrl::to('@webuploads/sli...')
+#2 C:\xampp\htdocs\banglatourbd-dynamic-slider-ok\vendor\yiisoft\yii2\base\View.php(348): require('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\banglatourbd-dynamic-slider-ok\vendor\yiisoft\yii2\base\View.php(257): yii\base\View->renderPhpFile('C:\\xampp\\htdocs...', Array)
+#4 C:\xampp\htdocs\banglatourbd-dynamic-slider-ok\vendor\yiisoft\yii2\base\View.php(156): yii\base\View->renderFile('C:\\xampp\\htdocs...', Array, Object(frontend\controllers\SiteController))
+#5 C:\xampp\htdocs\banglatourbd-dynamic-slider-ok\vendor\yiisoft\yii2\base\Controller.php(386): yii\base\View->render('index', Array, Object(frontend\controllers\SiteController))
+#6 C:\xampp\htdocs\banglatourbd-dynamic-slider-ok\frontend\controllers\SiteController.php(81): yii\base\Controller->render('index', Array)
+#7 [internal function]: frontend\controllers\SiteController->actionIndex()
+#8 C:\xampp\htdocs\banglatourbd-dynamic-slider-ok\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#9 C:\xampp\htdocs\banglatourbd-dynamic-slider-ok\vendor\yiisoft\yii2\base\Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#10 C:\xampp\htdocs\banglatourbd-dynamic-slider-ok\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction('', Array)
+#11 C:\xampp\htdocs\banglatourbd-dynamic-slider-ok\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('', Array)
+#12 C:\xampp\htdocs\banglatourbd-dynamic-slider-ok\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#13 C:\xampp\htdocs\banglatourbd-dynamic-slider-ok\frontend\web\index.php(17): yii\base\Application->run()
+#14 {main}
+2019-12-01 18:07:47 [127.0.0.1][-][phh71loqgl9n0uh8pu8pgle2qr][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPBACKSESSID' => 'eos7tkq888i8n6pqhokkdao6oo'
+    '_backendCSRF' => '86daee52212c4ef8a0e6e5aa17717881219d639656dbc9e8ca494220f5726059a:2:{i:0;s:12:\"_backendCSRF\";i:1;s:32:\"ki1VMwoD-uZH-G6UEwKr3e0uebcAa4YK\";}'
+    'PHPFRONTSESSID' => 'phh71loqgl9n0uh8pu8pgle2qr'
+    '_frontendCSRF' => 'fc195a37d38576f7d9936502830e7cc4433aa83562d87752e7f4801745a5d6cba:2:{i:0;s:13:\"_frontendCSRF\";i:1;s:32:\"CTAnVZFSKtmagwf8Z5I3MzUg5bAWe2Am\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:70.0) Gecko/20100101 Firefox/70.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://localhost/banglatourbd-dynamic-slider-ok/frontend/web/index.php'
+    'HTTP_DNT' => '1'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_COOKIE' => 'PHPBACKSESSID=eos7tkq888i8n6pqhokkdao6oo; _backendCSRF=86daee52212c4ef8a0e6e5aa17717881219d639656dbc9e8ca494220f5726059a%3A2%3A%7Bi%3A0%3Bs%3A12%3A%22_backendCSRF%22%3Bi%3A1%3Bs%3A32%3A%22ki1VMwoD-uZH-G6UEwKr3e0uebcAa4YK%22%3B%7D; PHPFRONTSESSID=phh71loqgl9n0uh8pu8pgle2qr; _frontendCSRF=fc195a37d38576f7d9936502830e7cc4433aa83562d87752e7f4801745a5d6cba%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_frontendCSRF%22%3Bi%3A1%3Bs%3A32%3A%22CTAnVZFSKtmagwf8Z5I3MzUg5bAWe2Am%22%3B%7D'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_PRAGMA' => 'no-cache'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;C:\\Program Files\\Git\\cmd;C:\\xampp\\php;C:\\composer;C:\\Users\\SHOHAN\\AppData\\Local\\Microsoft\\WindowsApps;;C:\\Program Files\\JetBrains\\PhpStorm 2019.2.5\\bin;;C:\\Users\\SHOHAN\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.41 (Win64) OpenSSL/1.1.1c PHP/7.3.11 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.41 (Win64) OpenSSL/1.1.1c PHP/7.3.11'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/xampp/htdocs/banglatourbd-dynamic-slider-ok/frontend/web/index.php'
+    'REMOTE_PORT' => '14348'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/banglatourbd-dynamic-slider-ok/frontend/web/index.php'
+    'SCRIPT_NAME' => '/banglatourbd-dynamic-slider-ok/frontend/web/index.php'
+    'PHP_SELF' => '/banglatourbd-dynamic-slider-ok/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1575220067.605
+    'REQUEST_TIME' => 1575220067
+]
