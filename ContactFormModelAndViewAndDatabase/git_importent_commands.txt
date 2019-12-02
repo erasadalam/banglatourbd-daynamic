@@ -1,0 +1,11 @@
+>>
+git clone https://github.com/erasadalam/yii2-app-advanced.git banglatour  [or download yii-advanced-app-2.0.30.tar and extract]
+composer update  -  [(optional) must install composer on your windows machine]
+init	[or php init, then enter 0 for Development Purpose]
+[run and test the project]
+Create Database
+Enter Database name in file C:\xampp\htdocs\yii-advanced-project-final\common\config\main-local.php
+yii migrate	[For Database Migrate, User and Migration table will be generated]
+Set {const STATUS_INACTIVE = 10;} in file C:\xampp\htdocs\yii-advanced-project-final\common\models\User.php 
+//Value was changed 9 to 10, for User signup feature
+Then SignUp & Login feature is activated. Thanks. Now for Admin login... [do yourself]
