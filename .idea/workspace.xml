@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="681dfb7b-e910-414b-b6ab-eb227ca01c40" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/frontend/models/ContactForm-old.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/views/site/contact-old.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/runtime/debug/5de4245330d8f.data" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/runtime/debug/5de4245349b78.data" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/runtime/debug/5de4245b16deb.data" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/runtime/debug/5de4246345595.data" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/runtime/debug/5de4247102b86.data" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/runtime/debug/5de4247605f24.data" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/runtime/debug/5de42544c1479.data" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/runtime/debug/5de425548209f.data" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/runtime/debug/5de425600e847.data" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/runtime/debug/5de425b865fed.data" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/runtime/debug/5de425b87c4d4.data" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/runtime/debug/index.data" beforeDir="false" afterPath="$PROJECT_DIR$/backend/runtime/debug/index.data" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/models/ContactForm.php" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/models/ContactForm.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/runtime/debug/5de3f22cb19b1.data" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/runtime/debug/5de3f2380cdea.data" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/runtime/debug/5de3f247c2370.data" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/runtime/debug/5de3f24e8f898.data" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/runtime/debug/5de3f34be6825.data" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/runtime/debug/5de3f3542a9b7.data" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/runtime/debug/5de3f35c51f8d.data" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/runtime/debug/5de3f363a2f62.data" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/runtime/debug/5de3f37029d2d.data" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/runtime/debug/5de3f3e539963.data" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/runtime/debug/5de40985cc1a8.data" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/runtime/debug/5de40994a90ba.data" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/runtime/debug/5de416a26c433.data" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/runtime/debug/5de416ea88ab9.data" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/runtime/debug/5de417dad4832.data" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/runtime/debug/5de417dc0adbf.data" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/runtime/debug/5de417e3aabbf.data" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/runtime/debug/5de417e3e2751.data" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/runtime/debug/5de4244539a11.data" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/runtime/debug/5de424475814b.data" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/runtime/debug/5de4259acb917.data" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/runtime/debug/5de425a85b444.data" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/runtime/debug/5de425a97f07e.data" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/runtime/debug/5de425aea39b7.data" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/runtime/debug/5de425aeba16e.data" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/runtime/debug/5de4263610c89.data" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/runtime/debug/5de4264007553.data" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/runtime/debug/5de42667c272a.data" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/runtime/debug/5de4267068ad9.data" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/runtime/debug/5de426717cc4d.data" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/runtime/debug/5de42681ea06c.data" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/runtime/debug/5de426871e35b.data" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/runtime/debug/5de4268b33897.data" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/runtime/debug/5de4268b4c2aa.data" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/runtime/debug/5de4269135376.data" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/runtime/debug/5de42edb1ad8a.data" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/runtime/debug/5de42ede49bea.data" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/runtime/debug/5de42ee8a60c7.data" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/runtime/debug/5de42ee9bb853.data" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/runtime/debug/5de433806dad8.data" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/runtime/debug/5de4338085dc8.data" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/runtime/debug/5de43382558d1.data" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/runtime/debug/5de4338fe4df6.data" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/runtime/debug/5de43397382c0.data" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/runtime/debug/index.data" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/runtime/debug/index.data" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/runtime/logs/app.log" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/runtime/logs/app.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/views/site/contact.php" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/views/site/contact.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/slider_table.txt" beforeDir="false" afterPath="$PROJECT_DIR$/slider_table.txt" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings" doNotAsk="true" synchronizationState="SYNCHRONIZE">
+    <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
+    <execution>
+      <executable />
+    </execution>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration">
+    <include_path>
+      <path value="$PROJECT_DIR$/vendor/symfony/yaml" />
+      <path value="$PROJECT_DIR$/vendor/egulias/email-validator" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-iconv" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-mbstring" />
+      <path value="$PROJECT_DIR$/vendor/symfony/service-contracts" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-php73" />
+      <path value="$PROJECT_DIR$/vendor/bower-asset/jquery" />
+      <path value="$PROJECT_DIR$/vendor/bower-asset/inputmask" />
+      <path value="$PROJECT_DIR$/vendor/bower-asset/punycode" />
+      <path value="$PROJECT_DIR$/vendor/bower-asset/bootstrap" />
+      <path value="$PROJECT_DIR$/vendor/bower-asset/yii2-pjax" />
+      <path value="$PROJECT_DIR$/vendor/phpspec/php-diff" />
+      <path value="$PROJECT_DIR$/vendor/phpspec/prophecy" />
+      <path value="$PROJECT_DIR$/vendor/phpunit/php-token-stream" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/instantiator" />
+      <path value="$PROJECT_DIR$/vendor/phpunit/php-text-template" />
+      <path value="$PROJECT_DIR$/vendor/phpunit/php-timer" />
+      <path value="$PROJECT_DIR$/vendor/phpunit/php-file-iterator" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/lexer" />
+      <path value="$PROJECT_DIR$/vendor/phpunit/phpunit-mock-objects" />
+      <path value="$PROJECT_DIR$/vendor/ezyang/htmlpurifier" />
+      <path value="$PROJECT_DIR$/vendor/phpunit/php-code-coverage" />
+      <path value="$PROJECT_DIR$/vendor/phpunit/phpunit" />
+      <path value="$PROJECT_DIR$/vendor/webmozart/assert" />
+      <path value="$PROJECT_DIR$/vendor/codeception/phpunit-wrapper" />
+      <path value="$PROJECT_DIR$/vendor/codeception/stub" />
+      <path value="$PROJECT_DIR$/vendor/theseer/tokenizer" />
+      <path value="$PROJECT_DIR$/vendor/codeception/verify" />
+      <path value="$PROJECT_DIR$/vendor/codeception/base" />
+      <path value="$PROJECT_DIR$/vendor/cebe/markdown" />
+      <path value="$PROJECT_DIR$/vendor/ralouphie/getallheaders" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/recursion-context" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/resource-operations" />
+      <path value="$PROJECT_DIR$/vendor/fzaninotto/faker" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/diff" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/global-state" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/object-enumerator" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/exporter" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/comparator" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/environment" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/version" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/object-reflector" />
+      <path value="$PROJECT_DIR$/vendor/myclabs/deep-copy" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/code-unit-reverse-lookup" />
+      <path value="$PROJECT_DIR$/vendor/opis/closure" />
+      <path value="$PROJECT_DIR$/vendor/yiisoft/yii2-faker" />
+      <path value="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer" />
+      <path value="$PROJECT_DIR$/vendor/yiisoft/yii2-bootstrap" />
+      <path value="$PROJECT_DIR$/vendor/yiisoft/yii2-swiftmailer" />
+      <path value="$PROJECT_DIR$/vendor/yiisoft/yii2" />
+      <path value="$PROJECT_DIR$/vendor/yiisoft/yii2-gii" />
+      <path value="$PROJECT_DIR$/vendor/yiisoft/yii2-debug" />
+      <path value="$PROJECT_DIR$/vendor/yiisoft/yii2-composer" />
+      <path value="$PROJECT_DIR$/vendor/behat/gherkin" />
+      <path value="$PROJECT_DIR$/vendor/psr/http-message" />
+      <path value="$PROJECT_DIR$/vendor/psr/container" />
+      <path value="$PROJECT_DIR$/vendor/guzzlehttp/psr7" />
+      <path value="$PROJECT_DIR$/vendor/composer" />
+      <path value="$PROJECT_DIR$/vendor/phpdocumentor/type-resolver" />
+      <path value="$PROJECT_DIR$/vendor/phpdocumentor/reflection-common" />
+      <path value="$PROJECT_DIR$/vendor/phpdocumentor/reflection-docblock" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-php72" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-ctype" />
+      <path value="$PROJECT_DIR$/vendor/symfony/dom-crawler" />
+      <path value="$PROJECT_DIR$/vendor/phar-io/version" />
+      <path value="$PROJECT_DIR$/vendor/symfony/finder" />
+      <path value="$PROJECT_DIR$/vendor/phar-io/manifest" />
+      <path value="$PROJECT_DIR$/vendor/symfony/browser-kit" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-intl-idn" />
+      <path value="$PROJECT_DIR$/vendor/symfony/console" />
+      <path value="$PROJECT_DIR$/vendor/symfony/css-selector" />
+      <path value="$PROJECT_DIR$/vendor/symfony/event-dispatcher" />
+      <path value="$PROJECT_DIR$/vendor/symfony/event-dispatcher-contracts" />
+    </include_path>
+  </component>
+  <component name="ProjectId" id="1UOso3pxfnNTDZVeRWgOPMhPmiL" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/frontend/models" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\xampp\htdocs\banglatourbd-dynamic\frontend\models" />
+      <recent name="C:\xampp\htdocs\banglatourbd-dynamic\frontend\views\site" />
+    </key>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="681dfb7b-e910-414b-b6ab-eb227ca01c40" name="Default Changelist" comment="" />
+      <created>1575239156316</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1575239156316</updated>
+      <workItem from="1575239181222" duration="731000" />
+      <workItem from="1575264243863" duration="3136000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="298" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1575264361771">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="298" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1366.728@0.0.1366.728" timestamp="1575264361771" />
+  </component>
+</project>
